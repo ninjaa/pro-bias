@@ -1,0 +1,6 @@
+deepeval
+pytest
+ruff
+pre-commit
+weave
+wandb
