@@ -15,3 +15,4 @@ Steps to run
 1. pip install -r requirements.txt
 2. wandb login
 3. export SAMBANOVA_API_KEY=<your-key>
+4. export WEAVE_PARALLELISM=1

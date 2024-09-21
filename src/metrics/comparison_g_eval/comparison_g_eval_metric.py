@@ -16,8 +16,8 @@ from deepeval.test_case import (
 )
 from deepeval.utils import get_or_create_event_loop, prettify_list
 
-from metrics.comparison_g_eval.schema import ReasonScore, Steps
-from metrics.comparison_g_eval.template import ComparisonGEvalTemplate
+from src.metrics.comparison_g_eval.schema import ReasonScore, Steps
+from src.metrics.comparison_g_eval.template import ComparisonGEvalTemplate
 
 
 G_EVAL_PARAMS = {
