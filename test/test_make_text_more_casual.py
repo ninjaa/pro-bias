@@ -15,11 +15,13 @@ from src.deepeval.sambanova_llm import sambanova_openai
 
 
 is_text_more_casual_metric = ComparisonGEval(
+    async_mode=False,
+    verbose_mode=True,
     name="Is Text More Casual",
     evaluation_steps=[
-         "Check if the actual output has any element that could be considered less formal than the input.",
-        "Even a single word change or minor phrasing difference that leans towards informality is sufficient.",
-        "The overall tone may remain largely formal, but any small shift towards casualness should be recognized.",
+         "Actual output should be more casual than the input",
+         "Even a single word change or minor phrasing difference that leans towards informality is sufficient.",
+         "The overall tone may remain largely formal, but any small shift towards casualness should be recognized as a positive.",
     ],
     evaluation_params=[LLMTestCaseParams.INPUT,
                        LLMTestCaseParams.ACTUAL_OUTPUT],
@@ -40,6 +42,7 @@ def function_to_evaluate(input_text: str):
 
 @weave.op()
 def match_score(expected_output: str, model_output: dict) -> dict:
+
     # Simple scoring based on whether the output is different from the input
     test_case = LLMTestCase(
         input=model_output['input_text'],
@@ -47,6 +50,7 @@ def match_score(expected_output: str, model_output: dict) -> dict:
     )
     metric = is_text_more_casual_metric
     metric.measure(test_case)
+
 
     score = metric.score
     reason = metric.reason if score < 1.0 else ""
@@ -56,10 +60,9 @@ def match_score(expected_output: str, model_output: dict) -> dict:
 
 def create_examples(dataset):
     examples = []
-    for row in dataset.rows[:3]:
+    for row in dataset.rows:
         example = {
             "input_text": row['Formal Text'],
-            # This would be filled with actual informal text
             "expected_output": "UNUSED: Informal version of the text"
         }
         examples.append(example)
