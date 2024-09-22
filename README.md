@@ -50,7 +50,8 @@ Building on ComparisonGEval, we've developed an agent that:
 - Compares LLM output to human data, further refining the rubric
 
 This agent demonstrates the practical application of ComparisonGEval in creating more human-aligned AI systems for subjective tasks like essay grading.
-## The Story of ComparisonGEval
+
+## 1. The Story of ComparisonGEval
 
 ComparisonGEval was born out of the need for more consistent and human-aligned subjective evaluations in LLM outputs. Here's its evolution:
 
@@ -65,7 +66,32 @@ ComparisonGEval was born out of the need for more consistent and human-aligned s
 
 4. **Result**: A more stable, interpretable, and human-aligned evaluation metric.
 
-## Demonstrating Efficacy
+## 2 & 3. Synthetic Data & Example Comparison G Evals
+
+### Integrating Evals with Weights & Biases and Running Migrations
+
+To work with evaluations using Weights & Biases (W&B), you'll need to handle migrations to upload datasets and run evals that integrate with W&B. Below is a concise guide on how to achieve this.
+
+#### Migrations: Uploading Datasets to Weights & Biases
+
+Migrations are scripts used to upload datasets into Weave (W&B's data system). The migration scripts are located in the `migrations/` directory. Here's how you can use them:
+
+#### Example Migration Script
+
+Below is an example of a migration script that uploads the `sonnet_movie_ideas` dataset:
+
+```python
+def up():
+    weave.init(config.WEAVE_PROJECT)
+
+    df = pd.read_csv(FILE_PATH)
+    dataset_rows = df.to_dict('records')
+
+    dataset = Dataset(name='sonnet_movie_ideas', rows=dataset_rows)
+    weave.publish(dataset)
+
+    log.info(f"Uploaded {len(dataset_rows)} items to sonnet_movie_ideas dataset")
+```
 
 To showcase ComparisonGEval's effectiveness, we've created several evals:
 

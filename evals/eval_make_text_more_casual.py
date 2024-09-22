@@ -8,6 +8,7 @@ from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 import asyncio
 from weave import Evaluation
 import weave
+from src.config import config
 from src.prompts.make_text_more_casual import run_prompt
 from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
 
@@ -26,7 +27,7 @@ is_text_more_casual_metric = ComparisonGEval(
     **config.get_async_param()
 )
 
-weave.init('pro-bias')
+weave.init(config.WEAVE_PROJECT)
 
 
 # Retrieve the dataset

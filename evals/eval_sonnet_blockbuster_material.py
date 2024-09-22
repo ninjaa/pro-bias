@@ -32,7 +32,7 @@ is_blockbuster_material_metric = ComparisonGEval(
     **config.get_async_param()
 )
 
-weave.init('pro-bias')
+weave.init(config.WEAVE_PROJECT)
 
 dataset_ref = weave.ref('sonnet_movie_ideas').get()
 

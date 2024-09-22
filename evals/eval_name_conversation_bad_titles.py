@@ -27,7 +27,7 @@ is_valid_conversation_name_metric = ComparisonGEval(
     **config.get_async_param()
 )
 
-weave.init('pro-bias')
+weave.init(config.WEAVE_PROJECT)
 
 dataset_ref = weave.ref('name_conversation').get()
 

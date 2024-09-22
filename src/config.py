@@ -1,5 +1,6 @@
 import os
 
+
 class Config:
     USE_SAMBANOVA = os.environ.get('USE_SAMBANOVA', '0') == '1'
     NO_ASYNC_MODE = os.environ.get('NO_ASYNC_MODE', '0') == '1'
@@ -15,5 +16,6 @@ class Config:
     @classmethod
     def get_async_param(cls):
         return {'async_mode': cls.ASYNC_MODE}
+
 
 config = Config()

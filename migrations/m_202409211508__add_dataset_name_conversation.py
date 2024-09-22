@@ -1,6 +1,6 @@
 import logging
 from pathlib import Path
-
+from src.config import config
 from weave import Dataset
 import weave
 import json
@@ -13,12 +13,13 @@ log = logging.getLogger(__name__)
 
 FILE_PATH = Path(__file__).parent.parent / "datasets" / "sonnet_chats.json"
 
+
 def up():
-    weave.init('pro-bias')
+    weave.init(config.WEAVE_PROJECT)
 
     with open(FILE_PATH, 'r') as file:
         data = json.load(file)
-    
+
     dataset_rows = []
     for chat in data['chats']:
         conversation_text = json.dumps(chat)
@@ -30,7 +31,9 @@ def up():
     dataset = Dataset(name='name_conversation', rows=dataset_rows)
     weave.publish(dataset)
 
-    log.info(f"Uploaded {len(dataset_rows)} items to name_conversation dataset")
+    log.info(
+        f"Uploaded {len(dataset_rows)} items to name_conversation dataset")
+
 
 if __name__ == "__main__":
     up()

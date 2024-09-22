@@ -1,6 +1,7 @@
 import logging
 from pathlib import Path
 
+from src.config import config
 from weave import Dataset
 import weave
 import pandas as pd
@@ -16,7 +17,7 @@ FILE_PATH = Path(__file__).parent.parent / "datasets" / "formal_texts.csv"
 
 
 def up():
-    weave.init('pro-bias')
+    weave.init(config.WEAVE_PROJECT)
 
     df = pd.read_csv(FILE_PATH)
     dataset_rows = df.to_dict('records')

@@ -1,6 +1,6 @@
 import logging
 from pathlib import Path
-
+from src.config import config
 from weave import Dataset
 import weave
 import pandas as pd
@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
 FILE_PATH = Path(__file__).parent.parent / "datasets" / "sonnet_movie_ideas.csv"
 
 def up():
-    weave.init('pro-bias')
+    weave.init(config.WEAVE_PROJECT)
 
     df = pd.read_csv(FILE_PATH)
     dataset_rows = df.to_dict('records')
