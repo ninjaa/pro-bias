@@ -6,7 +6,10 @@
 from deepeval.models.base_model import DeepEvalBaseLLM
 import openai
 import os
+import logging
 
+log = logging.getLogger(__name__)
+# logging.basicConfig(level=logging.INFO)
 
 class SambanovaOpenAI(DeepEvalBaseLLM):
     def __init__(self, model_name: str = 'Meta-Llama-3.1-405B-Instruct'):
@@ -23,23 +26,27 @@ class SambanovaOpenAI(DeepEvalBaseLLM):
         response = self.client.chat.completions.create(
             model=self.model_name,
             messages=[
-                {"role": "system", "content": "You are a helpful assistant"},
+                # {"role": "system", "content": "You are a helpful evaluator. Your job is to judge output and evaluate whether or not it meets a given criteria. Choose carefully from options A - G. Pick the answer that best represents the output."},
                 {"role": "user", "content": prompt}],
             temperature=0.7,
-            top_p=0.1
         )
-        return response.choices[0].message.content
+        # log.info(f"Prompt: {prompt}")
+        response_text = response.choices[0].message.content
+        # log.info(f"Response text: {response_text}")
+        return response_text
 
     async def a_generate(self, prompt: str) -> str:
         response = self.client.chat.completions.create(
             model=self.model_name,
             messages=[
-                {"role": "system", "content": "You are a helpful assistant"},
+                # {"role": "system", "content": "You are a helpful evaluator. Your job is to judge output and evaluate whether or not it meets a given criteria. Choose carefully from options A - G. Pick the answer that best represents the output."},
                 {"role": "user", "content": prompt}],
             temperature=0.7,
-            top_p=0.1
         )
-        return response.choices[0].message.content
+        # log.info(f"Prompt: {prompt}")
+        response_text = response.choices[0].message.content
+        # log.info(f"Response text: {response_text}")
+        return response_text
 
     def get_model_name(self) -> str:
         return self.model_name
