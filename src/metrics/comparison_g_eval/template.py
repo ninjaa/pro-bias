@@ -51,5 +51,13 @@ JSON:
 
     @staticmethod
     def calculate_score(choice):
-        choice_scores = {"A": 0.6, "B": 0.8, "C": 1, "D": 0, "E": 1, "F": 0.2, "G": 0}
+        choice_scores = {
+            "A": 0.6,
+            "B": 0.8,
+            "C": 1,
+            "D": 0,
+            "E": 1,
+            "F": 0.2,
+            "G": 0
+        }
         return choice_scores.get(choice, 0)
