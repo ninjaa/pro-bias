@@ -1,20 +1,22 @@
+from src.deepeval.sambanova_llm import sambanova_openai
+from deepeval.test_case import LLMTestCase, LLMTestCaseParams
+import asyncio
+from weave import Evaluation
+import weave
+from src.prompts.make_text_more_casual import run_prompt
+from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
 import sys
 import os
 # Add the parent directory of 'test' to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
-from src.prompts.make_text_more_casual import run_prompt
-import weave
-from weave import Evaluation
-import asyncio
-from deepeval.test_case import LLMTestCase, LLMTestCaseParams
-
-from src.deepeval.sambanova_llm import sambanova_openai
 
 # Get the USE_OPENAI environment variable
 USE_OPENAI = os.environ.get('USE_OPENAI', '0') == '1'
 ASYNC_MODE = os.environ.get('ASYNC_MODE', '0') == '1'
+NUM_EXAMPLES = int(os.environ.get('NUM_EXAMPLES', '-1')
+                   )  # -1 means all examples
+
 
 # Conditionally set the model
 model_param = {} if USE_OPENAI else {'model': sambanova_openai}
@@ -57,7 +59,6 @@ def match_score(expected_output: str, model_output: dict) -> dict:
     metric = is_text_more_casual_metric
     metric.measure(test_case)
 
-
     score = metric.score
     reason = metric.reason if score < 1.0 else ""
 
@@ -66,7 +67,8 @@ def match_score(expected_output: str, model_output: dict) -> dict:
 
 def create_examples(dataset):
     examples = []
-    for row in dataset.rows:
+    rows = dataset.rows[:NUM_EXAMPLES] if NUM_EXAMPLES > 0 else dataset.rows
+    for row in rows:
         example = {
             "input_text": row['Formal Text'],
             "expected_output": "UNUSED: Informal version of the text"

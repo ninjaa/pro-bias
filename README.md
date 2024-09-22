@@ -27,5 +27,5 @@ USE_OPENAI=1 will run the eval using OpenAI instead of Sambanova
 Then you can run each eval by name
 
 ```
-python evals/eval_make_text_more_casual.py
+ASYNC_MODE=1 USE_OPENAI=1 python evals/eval_make_text_more_casual.py
 ```
