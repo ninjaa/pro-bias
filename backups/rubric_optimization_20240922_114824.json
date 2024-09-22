@@ -1,0 +1,1872 @@
+{
+  "initial_rubric": [
+    "Is this a well-written essay for an 8th grade student?"
+  ],
+  "rater_id": 1,
+  "target_kappa": 0.7,
+  "max_iterations": 10,
+  "best_rubric": [
+    "Does the essay clearly address the topic of computers and their effects on society?",
+    "Does the essay present a well-developed argument about computers' impact?",
+    "Does the essay provide relevant and specific examples to support its argument?",
+    "Is the essay's main idea clear and easy to follow?",
+    "Does the essay demonstrate logical reasoning and critical thinking?",
+    "Is the essay persuasive in its argument?",
+    "Ignore redactions (e.g., @PERSON1, @LOCATION1) when evaluating the essay",
+    "Minor spelling, grammar, or structural issues should not significantly impact the score unless they severely hinder comprehension"
+  ],
+  "best_kappa": 0.6379008746355685,
+  "final_kappa": -0.1278195488721805,
+  "rubric_history": [
+    {
+      "iteration": 0,
+      "rubric": [
+        "Is this a well-written essay for an 8th grade student?"
+      ],
+      "kappa": 0.409612233752048,
+      "kappa_delta": 0.29038776624795193,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written essay for an 8th grade student. It contains basic spelling and grammar errors, lacks detail, and does not provide a coherent argument or sufficient supporting information.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written 8th grade essay. It contains numerous spelling and grammatical errors, lacks proper sentence structure, and does not present ideas clearly or coherently. The topic is relevant, but the execution is significantly below the expected standard for an 8th grade student.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written essay for an 8th grade student. It contains numerous spelling errors, grammatical mistakes, and lacks coherence and structure. While the general idea is present, the execution is poor, making it difficult to understand and follow.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria of being a well-written essay for an 8th grade student. The essay contains multiple grammatical errors, spelling mistakes, and lacks proper structure. Key points are presented, but they are not developed or supported with evidence. Additionally, there is no clear introduction, body, or conclusion, making the essay difficult to follow.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written essay for an 8th grade student. It contains numerous grammatical errors, spelling mistakes, and lacks coherent structure. The arguments are repetitive and not clearly organized, making it difficult to follow the writer's line of reasoning.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 0.8,
+          "ai_reason": "The essay mostly meets the criteria for an 8th-grade student. It presents a clear argument with supporting points about the disadvantages of excessive computer use, such as lack of exercise, reduced social interaction, and dangers of chatting with strangers. However, there are minor issues with grammar, punctuation, and word choice that could be improved. Additionally, some points are repetitive, and the overall structure could be more organized.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria for a well-written essay for an 8th-grade student. It presents a clear argument for having internet access at home and provides several reasons in support. However, it contains numerous grammatical errors, awkward phrasing, and lacks coherent organization. The introduction and conclusion are present, but the overall flow and structure could be improved significantly. Additionally, the use of placeholders like @NUM1 and @LOCATION1 indicates incomplete information.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The text is mostly well-written for an 8th-grade student. It addresses the main points and provides reasons for the argument against the effects of computers on people. However, there are several grammatical errors, spelling mistakes, and awkward phrasings that slightly detract from the overall quality.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria for a well-written essay for an 8th grade student. It contains numerous spelling and grammatical errors, lack of coherent structure, and overuse of placeholders like @CAPS and @PERSON. These issues significantly detract from the readability and overall quality of the essay.",
+          "delta": 0.8
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria for an 8th grade level. It presents a clear stance on the benefits of computers and provides relevant examples. However, it has numerous grammatical errors, spelling mistakes, and awkward phrasings. Additionally, the organization and flow of ideas could be significantly improved. These issues prevent it from being a well-written essay.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text demonstrates an understanding of the topic and presents several arguments to support the use of computers, which is appropriate for an 8th grade level. However, it contains numerous spelling and grammatical errors, which detract from its overall clarity. The structure is somewhat disorganized, and the essay could benefit from more cohesive paragraphs. These factors prevent it from fully meeting the criteria.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria for a well-written essay for an 8th grade student. It contains numerous grammatical errors, misspellings, and formatting issues, such as incorrect capitalization and punctuation. The essay's structure is disorganized, making it difficult to follow the author's argument. Additionally, the use of placeholders like @CAPS1, @CAPS2, etc., further detracts from the clarity and coherence of the essay.",
+          "delta": 1.0
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria for a well-written essay at the 8th grade level. It contains numerous grammatical errors, improper punctuation, and lacks coherence. The ideas are not well-organized, and the text does not follow a clear structure.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written essay for an 8th grade student. It is too brief, lacks structure, and does not develop any ideas or arguments.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written essay for an 8th grade student. The essay contains numerous spelling and grammatical errors, lacks clear organization, and fails to present coherent arguments or ideas. The sentences are often fragmented and do not flow logically, making it difficult to understand the main points being conveyed.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written 8th grade essay. It contains numerous grammatical errors, punctuation mistakes, and typos. The organization is poor, and the arguments are not clearly developed or supported. The essay lacks coherence and clarity, making it difficult to follow the writer's main points.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written essay for an 8th grade student. It contains numerous spelling and grammatical errors, lacks coherence and structure, and does not present a clear argument or perspective. Additionally, the use of informal language and incomplete sentences detracts from its overall quality.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written essay for an 8th grade student. It contains numerous grammatical errors, inconsistent structure, and several sentences that are incomplete or nonsensical. While it attempts to convey a message, the lack of coherence and clarity makes it difficult to understand.",
+          "delta": 0.6
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria for an 8th grade essay. It presents a clear argument with three main points and includes some supporting details. However, it has several spelling and grammatical errors, lacks coherence in some parts, and could benefit from a more structured format. The writing demonstrates effort and some understanding of essay composition, but it needs improvement to fully meet the criteria.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria for a well-written essay suitable for an 8th grade student. It contains numerous spelling and grammatical errors, lacks coherent structure, and fails to present a clear argument. Additionally, the use of placeholders such as '@CAPS' and '@NUM' indicates an incomplete and unedited draft.",
+          "delta": 0.6
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria for an 8th grade essay. It presents a clear argument and relevant examples, but there are numerous spelling and grammatical errors, informal language, and missing specifics that detract from its overall quality. These issues indicate room for improvement in coherence and adherence to formal writing standards expected at this grade level.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria for an 8th grade student. It presents clear arguments and examples to support the benefits of computer use. However, the frequent use of placeholders like @PERSON4 and @ORGANIZATION2 detracts from the coherence and readability of the text. Additionally, there are minor grammatical errors and repetitive phrases that slightly hinder the overall quality.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria for an 8th grade essay. It presents a clear argument and covers several points about the positive effects of computers. However, it contains numerous grammatical errors, misspellings, and awkward phrasings that detract from its overall readability and coherence. Additionally, the structure could be improved for better flow and clarity.",
+          "delta": 0.20000000000000007
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "rubric": [
+        "Does the essay address the topic of computers and their effects on society?",
+        "Does the essay present a clear argument or stance on the topic?",
+        "Does the essay provide relevant examples or evidence to support its points?",
+        "Does the essay have a basic structure (introduction, body, conclusion)?",
+        "Is the essay coherent and easy to follow, despite any grammatical or spelling errors?",
+        "Does the essay demonstrate an 8th-grade level of reasoning and writing ability?",
+        "Ignore any redactions (e.g., @PERSON1, @LOCATION1) when evaluating the essay",
+        "Minor spelling and grammatical errors should not significantly impact the overall score"
+      ],
+      "kappa": 0.6342930812204555,
+      "kappa_delta": 0.06570691877954449,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text does not successfully meet most of the criteria. It addresses the topic of computers and their effects on society, but it lacks a clear argument or stance. The essay does not provide relevant examples or evidence to support its points, and it does not have a basic structure (introduction, body, conclusion). While the text is somewhat coherent and easy to follow, it does not demonstrate an 8th-grade level of reasoning and writing ability.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0.4,
+          "ai_reason": "The text slightly fails to meet the criteria. It addresses the topic of computers and their effects on society and presents a basic argument about the dangers of illegal activities and online interactions. However, it lacks sufficient examples or evidence to support its points and does not have a clear structure with an introduction, body, and conclusion. The coherence is somewhat maintained, but the reasoning and writing ability are below an 8th-grade level.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and provides some relevant examples. However, it lacks a clear argument or stance, and its structure is minimal, with no clear introduction, body, or conclusion. The coherence is affected by numerous spelling and grammatical errors, but it does show an attempt at reasoning and writing at an 8th-grade level.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a basic argument in favor of their benefits. It includes some relevant examples such as hand-eye coordination, learning about other countries, and fast information retrieval. However, the essay lacks a clear structure (introduction, body, conclusion) and coherence. The reasoning and writing ability are close to an 8th-grade level but need improvement in clarity and depth.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance advocating for the use of computers. However, the argument is not very clear, and the examples provided are somewhat disjointed. The essay does have a basic structure but lacks coherence and is difficult to follow at times. It demonstrates an attempt at reasoning suitable for an 8th-grade level, but the execution falls short in several areas.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear argument, and provides relevant examples. It has a basic structure with an introduction, body, and conclusion, and is coherent and easy to follow. However, it slightly lacks depth in reasoning and writing ability for an 8th-grade level, and there are some minor grammatical and spelling errors.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance on the topic. However, the argument is not well-developed, and the examples provided are somewhat scattered and lack depth. The structure of the essay is basic but not very clear, and the coherence is affected by several grammatical and spelling errors. The reasoning and writing ability demonstrated are at an 8th-grade level, but the overall execution could be improved.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The text almost fully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear argument. The essay provides relevant examples and has a basic structure, making it coherent and easy to follow. However, there are some minor issues with spelling and grammar, and the reasoning could be more developed to fully meet an 8th-grade level of writing ability.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear argument in favor of computers. It provides relevant examples and evidence to support its points. The essay has a basic structure with an introduction, body, and conclusion. However, the coherence is somewhat hindered by the extensive use of redacted words, making it difficult to follow at times. The reasoning and writing style are appropriate for an 8th-grade level. Minor spelling and grammatical errors are present but do not significantly impact the overall score.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance. However, while it provides some examples to support its points, the evidence is not deeply explored or particularly compelling. The essay has a basic structure and is mostly coherent, but it contains significant spelling and grammatical errors that affect readability. It demonstrates reasoning and writing ability at an 8th-grade level, but the execution is imperfect.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance. However, it lacks coherent structure and has multiple grammatical and spelling errors that make it difficult to follow. While it provides some examples, they are not always relevant or well-explained. Overall, the essay demonstrates a basic understanding but falls short in clarity and organization.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance, and provides some relevant examples. However, the structure is somewhat inconsistent, and the coherence is affected by numerous spelling and grammatical errors. While it demonstrates an effort to reason at an 8th-grade level, these issues prevent it from fully meeting the criteria.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria in several key areas. It does address the topic of computers and their effects on society, but it lacks a clear argument or stance on the topic. The text does not provide relevant examples or evidence to support its points, and the structure is incomplete, missing a proper introduction, body, and conclusion. While the essay is somewhat coherent, it does not demonstrate an 8th-grade level of reasoning and writing ability. Overall, it falls short in almost all evaluation steps.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria as it does not address the topic of computers and their effects on society. It lacks a clear argument, relevant examples, structure, coherence, and does not demonstrate an 8th-grade level of reasoning and writing ability.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria outlined in the evaluation steps. Although it mentions computers and their importance, it lacks a clear argument or stance, relevant examples or evidence to support its points, and a basic structure. The coherence of the essay is poor, making it difficult to follow. Additionally, it does not demonstrate an 8th-grade level of reasoning and writing ability.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a clear stance. It mentions both positive and negative aspects of computer use and provides some examples. However, the essay lacks coherence and structure. The introduction, body, and conclusion are not well-defined, and there are many grammatical and spelling errors that affect readability. The reasoning is at an 8th-grade level, but the execution falls short in several areas, making it only partially meet the criteria.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a basic argument. However, it lacks clear examples or evidence to support its points, and the structure is somewhat disjointed. The coherence is impacted by numerous grammatical and spelling errors, and while it demonstrates a basic understanding, it falls short of a fully developed 8th-grade level of reasoning and writing ability.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance against excessive computer use. However, the argument is not well-supported with relevant examples or evidence, and the writing lacks coherence in certain parts. The basic structure is present, but the overall flow and clarity are hindered by numerous grammatical and spelling errors. The reasoning and writing ability displayed are somewhat below an 8th-grade level.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance against the benefits of computers. It offers some relevant examples to support its points, such as the impact on exercise, nature enjoyment, and social interactions. However, the structure is somewhat disjointed, and the coherence is affected by numerous spelling and grammatical errors. While it demonstrates a basic level of reasoning, it falls short of a fully coherent and well-structured argument expected at an 8th-grade level.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a positive stance on the subject. However, it lacks coherence and structure, has several grammatical errors, and does not provide clear, relevant examples or evidence to support its points. The text demonstrates some level of reasoning but falls short of an 8th-grade level of writing ability.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance. However, the argument is not sufficiently supported with clear examples or evidence. The structure is basic but lacks coherence, making it challenging to follow. The text demonstrates reasoning and writing ability appropriate for an 8th-grade level but contains numerous spelling and grammatical errors that detract from its clarity.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear argument, provides relevant examples and evidence, and follows a basic essay structure. The essay is coherent and easy to follow, demonstrating an 8th-grade level of reasoning and writing ability. Minor spelling and grammatical errors do not significantly impact the overall score.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance. The essay provides examples and evidence, and it has a basic structure. However, the coherence is somewhat disrupted due to grammatical and spelling errors, and some points are not clearly articulated. The level of reasoning and writing is appropriate for an 8th-grade level.",
+          "delta": 0.20000000000000007
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "rubric": [
+        "Does the essay clearly address the topic of computers and their effects on society?",
+        "Does the essay present a discernible stance or argument about computers' impact?",
+        "Does the essay provide at least one relevant example or piece of evidence to support its stance?",
+        "Is the essay's main idea easy to follow, despite any grammatical or spelling errors?",
+        "Does the essay demonstrate basic 8th-grade level reasoning about the topic?",
+        "Ignore redactions (e.g., @PERSON1, @LOCATION1) when evaluating the essay",
+        "Do not penalize for minor spelling, grammar, or structural issues unless they severely impact comprehension"
+      ],
+      "kappa": 0.4764227642276423,
+      "kappa_delta": 0.22357723577235766,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance that computers help people. However, it lacks detailed examples or evidence to support this stance. The main idea is easy to follow, but the reasoning is very basic and somewhat undeveloped. Overall, it meets the criteria to a limited extent.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0.4,
+          "ai_reason": "The text addresses the topic of computers and their effects on society and presents a stance about the negative impacts, such as illegal activities and online dangers. It provides relevant examples, such as illegal music sites and deceptive people online. However, the main idea is somewhat difficult to follow due to grammatical and spelling errors, and the reasoning seems slightly below an 8th-grade level.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a discernible stance on the impact of different websites. However, it lacks specific, clear examples and evidence to support the argument fully. While the main idea is easy to follow, the reasoning is at a basic level and does not fully meet 8th-grade expectations.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society and presents a clear stance that computers benefit society. It provides relevant examples like improved hand-eye coordination, learning about other cultures, and easy access to information. The main idea is easy to follow, despite grammatical and spelling errors, and demonstrates basic reasoning appropriate for an 8th-grade level. However, the essay could benefit from more detailed examples and clearer organization.",
+          "delta": -0.6000000000000001
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society and presents a discernible stance supporting their use. It provides relevant examples such as learning about faraway places and communicating with friends online. The main idea is easy to follow despite several grammatical errors. The essay demonstrates a basic level of reasoning appropriate for an 8th grader, although the argument could be more developed.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society, presents a discernible stance, and provides relevant examples to support its argument. The main idea is easy to follow despite minor grammatical errors, and it demonstrates basic 8th-grade level reasoning about the topic.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The essay clearly addresses the topic of computers and their effects on society. It presents a stance advocating for the benefits of having internet and computers at home. The text provides several relevant examples, such as staying in touch with friends via Facebook or learning educational content online. The main idea is easy to follow, despite some grammatical errors and informal language. The essay demonstrates basic reasoning appropriate for an 8th-grade level, although it could benefit from a more structured argument and clearer presentation.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society, presents a clear stance, and provides several examples to support its argument. The main idea is easy to follow despite some grammatical errors. It demonstrates basic 8th-grade level reasoning about the topic. However, minor issues in spelling and grammar slightly affect the overall fluency of the essay.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance that computers have positive impacts. It provides examples to support the stance, such as social networking sites and online games. However, the argumentation is somewhat superficial, and the coherence is affected by numerous redactions which make it harder to follow. The reasoning is at a basic level, but the overall effectiveness of communication is hindered by the structure and presentation.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society and presents a discernible stance in favor of computers. The essay provides relevant examples supporting its stance, such as improved hand-eye coordination, access to information, and communication benefits. The main idea is easy to follow, despite some grammatical and spelling errors. Additionally, it demonstrates basic 8th-grade level reasoning about the topic. However, minor issues in structure and grammar slightly affect the overall clarity.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society, presents a discernible stance, and provides relevant examples to support its points. The main idea is easy to follow despite some grammatical and spelling errors, and it demonstrates basic 8th-grade level reasoning. However, the writing could be more polished and cohesive.",
+          "delta": 0.19999999999999996
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents an argument in favor of their benefits. It provides examples related to hand-eye coordination, learning about distant places, and communication with distant family members. However, the argument is not well-organized, and the examples are not clearly articulated. Additionally, the text contains numerous grammatical errors and awkward phrasing that make the main idea difficult to follow at times. The reasoning demonstrates a basic understanding of the topic but falls short of fully meeting the criteria for clarity and coherence.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance on the positive impacts of computers. However, it provides limited examples and evidence to support its stance and has several grammatical issues that slightly impact comprehension. The reasoning demonstrated is basic and aligns with an 8th-grade level.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text does not clearly address the topic of computers and their effects on society. It lacks a discernible stance or argument about computers' impact and does not provide any relevant examples or pieces of evidence to support a stance. The main idea is not related to the topic of computers and society, and it does not demonstrate basic 8th-grade level reasoning about the topic.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0.2,
+          "ai_reason": "The text mostly fails to meet the criteria. While it attempts to address the topic of computers and their effects on society, it lacks a clear stance or argument and does not provide relevant examples or evidence. The main idea is difficult to follow due to significant grammatical and structural issues, and it does not demonstrate basic 8th-grade level reasoning about the topic.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a discernible argument about their impact. It provides some relevant examples, such as the use of computers for paying bills and uploading vacation pictures. However, the main idea is somewhat difficult to follow due to numerous grammatical and spelling errors, and the reasoning displayed is only partially at an 8th-grade level.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance about the negative impact of computer usage. However, the argument is not well-developed, and the examples provided are vague and lack depth. The main idea is somewhat understandable despite grammatical and spelling errors, but the reasoning is not clearly at an 8th-grade level.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a discernible stance against excessive computer use. It provides some examples and reasons, such as spending time with family and exercising instead. However, the essay's main idea is somewhat difficult to follow due to significant grammatical and structural issues. Additionally, the reasoning and argumentation are not fully developed to an 8th-grade level.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a clear stance that computers do not benefit society. It provides several relevant examples to support this stance, such as the impact on exercise, enjoying nature, and interacting with friends. The main idea is easy to follow, despite some grammatical and spelling errors. The reasoning demonstrated is appropriate for an 8th-grade level. However, the essay could be improved with more detailed explanations and better organization.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a discernible stance that computers are beneficial. It provides some examples, such as their use in schools and for research, gaming, and communication. However, the text has significant coherence issues and lacks clear, detailed evidence. The reasoning is basic but fits an 8th-grade level, despite the heavy presence of grammatical and structural errors which slightly impact comprehension.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society, presents a discernible stance on the negative impacts of computers, and provides relevant examples. Despite some grammatical and spelling errors, the main idea is easy to follow and demonstrates basic 8th-grade level reasoning. However, the argument could be more cohesive and supported with stronger evidence.",
+          "delta": 0.19999999999999996
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society, presents a discernible stance on the benefits of computers, provides multiple relevant examples to support its stance, and its main idea is easy to follow. Additionally, it demonstrates basic 8th-grade level reasoning about the topic.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The essay successfully meets the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society, presents a discernible positive stance, and provides relevant examples such as online textbooks, real-time updates, educational programs, and online games. Despite minor grammatical errors, the main idea is easy to follow, and it demonstrates basic 8th-grade level reasoning about the topic.",
+          "delta": -0.19999999999999996
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "rubric": [
+        "Does the essay clearly address the topic of computers and their effects on society?",
+        "Does the essay present a well-developed argument about computers' impact?",
+        "Does the essay provide relevant and specific examples to support its argument?",
+        "Is the essay's main idea clear and easy to follow?",
+        "Does the essay demonstrate logical reasoning and critical thinking?",
+        "Is the essay persuasive in its argument?",
+        "Ignore redactions (e.g., @PERSON1, @LOCATION1) when evaluating the essay",
+        "Minor spelling, grammar, or structural issues should not significantly impact the score unless they severely hinder comprehension"
+      ],
+      "kappa": 0.6379008746355685,
+      "kappa_delta": 0.06209912536443141,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet most of the criteria. While it addresses the topic of computers and their effects on society, it does not present a well-developed argument or provide specific examples to support its points. The main idea is vague and not easy to follow, and there is little demonstration of logical reasoning or critical thinking. The text is not persuasive in its argument.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text fails to clearly address the topic of computers and their effects on society in a comprehensive manner. It mentions some negative aspects of computer use, such as illegal activities and online dangers, but does not present a well-developed argument or provide relevant and specific examples. The main idea is not clear, and the reasoning lacks depth. Minor spelling and grammatical issues also detract from the overall clarity and persuasiveness of the essay.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The essay fails to clearly address the topic of computers and their effects on society. It lacks a well-developed argument and does not provide relevant and specific examples to support any argument. The main idea is not clear and easy to follow, and the essay does not demonstrate logical reasoning or critical thinking. The persuasive element is also missing, and while minor spelling and grammar issues are present, they are not the primary reason for the low score.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 0.2,
+          "ai_reason": "The essay mostly fails to meet the criteria outlined in the evaluation steps. It does address the topic of computers and their effects on society, but it lacks a well-developed argument and relevant, specific examples. The main idea is somewhat clear but not well-articulated, and the essay demonstrates limited logical reasoning and critical thinking. The argument is not very persuasive, and there are significant issues with grammar and structure that hinder comprehension.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria in several key areas. It does address the topic of computers and their effects on society, but the argument is not well-developed or persuasive. The examples provided are vague and not specific. The main idea is unclear and difficult to follow due to poor organization and numerous grammatical errors. Logical reasoning and critical thinking are not demonstrated effectively.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society, presents a well-developed argument, and provides relevant examples. The main idea is clear and easy to follow, and the essay demonstrates logical reasoning and critical thinking. While there are minor grammatical issues, they do not severely hinder comprehension, and the essay is persuasive in its argument.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a basic argument in favor of having computers at home. However, the argument is not well-developed, lacks specific examples, and demonstrates limited logical reasoning and critical thinking. The main idea is somewhat clear, but the essay is not very persuasive and is hindered by structural issues that affect comprehension.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The essay successfully addresses the topic of computers and their effects on society. It presents a well-developed argument with specific examples to support its points. The main idea is clear and easy to follow, demonstrating logical reasoning and critical thinking. The argument is persuasive, despite a few minor spelling and grammatical issues that do not significantly hinder comprehension.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a general argument. However, it lacks well-developed arguments and specific examples to support its claims. The main idea is somewhat clear but not easy to follow due to the disorganized structure and over-reliance on generalized statements. The reasoning is present but not thoroughly logical or critically developed. While persuasive to some extent, the essay could be more compelling with better organization and stronger evidence.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a basic argument with some examples. However, the argument is not well-developed and lacks depth. The main idea is somewhat clear but not easy to follow due to minor structural and grammatical issues. The essay demonstrates some logical reasoning but does not fully utilize critical thinking. It is somewhat persuasive but could be improved significantly with more coherent arguments and better organization.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a basic argument about their impact. However, it lacks well-developed reasoning and specific examples to support its points. The main idea is somewhat clear but could be more coherent. The argument is not very persuasive due to insufficient logical reasoning and critical thinking. Overall, it partially meets the criteria but requires significant improvement in several areas.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a basic argument with some examples. However, the argument lacks depth and detailed support, and the text contains numerous spelling and grammar errors that slightly hinder comprehension. The reasoning and critical thinking are not well-developed, reducing the persuasiveness of the argument.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0.2,
+          "ai_reason": "The text mostly fails to meet the criteria outlined in the evaluation steps. While it addresses the topic of computers and their effects on society, it does so in a vague and undeveloped manner. The argument is not well-developed, lacks specific examples, and is difficult to follow. Additionally, the text does not demonstrate logical reasoning or critical thinking, and it is not persuasive. Minor spelling and grammatical errors are present, but they do not severely hinder comprehension.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text does not clearly address the topic of computers and their effects on society. It fails to present a well-developed argument, provide relevant examples, or demonstrate logical reasoning and critical thinking related to the specified topic. The main idea is also unclear and does not align with the criteria.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text fails to clearly address the topic of computers and their effects on society. It lacks a well-developed argument and specific examples to support its points. The main idea is unclear and difficult to follow, and the logical reasoning and critical thinking are not demonstrated. Additionally, the text is not persuasive in its argument. Although minor spelling and grammar issues are present, they severely hinder comprehension.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria in several key areas. While it addresses the topic of computers and their effects on society, the argument is poorly developed and lacks clear, relevant examples. The main idea is not easy to follow due to numerous spelling, grammatical, and structural issues, which severely hinder comprehension. The essay does not demonstrate logical reasoning or critical thinking, and it is not persuasive in its argument. Overall, it does not successfully meet the criteria.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0,
+          "ai_reason": "The essay fails to clearly address the topic of computers and their effects on society in a coherent and well-developed manner. It lacks specific and relevant examples to support its argument, and the main idea is not clearly presented or easy to follow. Logical reasoning and critical thinking are not demonstrated effectively, and the argument is not persuasive. While minor spelling and grammatical issues are present, they do not significantly impact the score; the primary issue is the overall lack of clarity and depth in addressing the topic.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0.2,
+          "ai_reason": "The essay fails to clearly address the topic of computers and their effects on society in a coherent manner. While it attempts to present an argument about the negative impact of computers, it lacks logical reasoning and critical thinking. The main idea is unclear due to significant structural and grammatical issues, making the argument difficult to follow. Additionally, the essay does not provide relevant and specific examples to support its points effectively. The overall persuasiveness of the argument is weak due to these deficiencies.",
+          "delta": 0.39999999999999997
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a well-developed argument, and provides specific examples to support its points. The main idea is clear and easy to follow, demonstrating logical reasoning and critical thinking. The argument is persuasive despite minor spelling and grammatical issues, which do not significantly hinder comprehension.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0.2,
+          "ai_reason": "The text mostly fails to meet the criteria outlined in the evaluation steps. While it attempts to address the topic of computers and their effects on society, the argument is underdeveloped and lacks clear, relevant examples. The main idea is difficult to follow due to numerous grammatical errors and unclear reasoning. The essay is not persuasive in its argument and fails to demonstrate logical reasoning and critical thinking effectively.",
+          "delta": 0.39999999999999997
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear argument with some examples. However, the argument is not well-developed, lacks specific and relevant examples, and has issues with logical reasoning and clarity. Minor spelling and grammar issues are present but do not severely hinder comprehension. The text is somewhat persuasive, but the overall presentation is not strong enough to fully meet the criteria.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society, presents a well-developed argument, provides relevant and specific examples, and is clear and easy to follow. The essay demonstrates logical reasoning and critical thinking, and is persuasive in its argument. Minor redactions and potential minor grammatical issues do not significantly hinder comprehension.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a basic argument. However, the argument is not well-developed, and there are several grammatical and structural issues that hinder comprehension. The examples provided are somewhat relevant but lack depth and specificity. The main idea is present but not clearly articulated, and the essay does not demonstrate strong logical reasoning or critical thinking. Overall, while the text touches on several key points, it falls short in several areas.",
+          "delta": 0.20000000000000007
+        }
+      ]
+    },
+    {
+      "iteration": 4,
+      "rubric": [
+        "Does the essay address the topic of computers and their effects on society?",
+        "Does the essay present a clear stance or opinion on the topic?",
+        "Does the essay provide at least one relevant example or reason to support its stance?",
+        "Is the essay's main idea understandable, even if there are some errors?",
+        "Does the essay have a basic structure (beginning, middle, end)?",
+        "Ignore redactions (e.g., @PERSON1, @LOCATION1) when evaluating the essay",
+        "Minor spelling, grammar, or structural issues should not significantly impact the score"
+      ],
+      "kappa": 0.26545002073828283,
+      "kappa_delta": 0.4345499792617171,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance that computers help people. However, it provides only a vague example without detailed support or reasoning. The main idea is understandable, but the essay lacks a basic structure and depth in its argument.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance on the potential dangers of using computers for illegal activities and online interactions. It provides relevant examples, such as illegal music sites and fake online identities. The main idea is understandable despite errors in spelling and grammar. However, the essay lacks a clear structure with a beginning, middle, and end.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a clear stance on the topic. It provides relevant examples, such as the educational benefits of computers and the potential negative impact of certain games. The main idea is understandable despite some spelling and grammatical errors. However, the essay structure is weak and somewhat disorganized, which slightly impacts the overall clarity and coherence.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance supporting their benefits, provides relevant examples like improved hand-eye coordination and ease of finding information, and maintains a basic structure. The main idea is understandable despite minor errors in spelling and grammar.",
+          "delta": -0.8
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, and it presents a clear stance. It provides some relevant examples and reasons to support its stance. The main idea is understandable despite some errors. However, the essay's structure is somewhat disorganized, and the examples given could be more specific and detailed.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance, provides relevant examples to support its stance, has a main idea that is understandable, and follows a basic structure with a beginning, middle, and end. Minor spelling and grammar issues do not significantly impact the overall clarity or structure of the essay.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance. It also provides relevant examples and reasons to support its stance. However, the structure is somewhat disorganized, and there are numerous grammatical and spelling issues that make the main idea less understandable.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance against the impact of computers, provides several relevant examples to support its stance, and has a basic structure with a beginning, middle, and end. Despite some minor spelling and grammatical errors, the main idea is understandable.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion, provides several relevant examples to support its stance, and has a basic structure with a beginning, middle, and end. Despite minor spelling and grammar issues, the main idea remains understandable.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a clear stance supporting computers. It provides relevant examples related to hand-eye coordination, learning, and communication. The main idea is understandable despite errors, and the essay has a basic structure. However, it contains numerous spelling and grammatical errors, and some arguments are not well-developed, which slightly detracts from fully meeting the criteria.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance. It provides several relevant examples to support its stance, and the main idea is understandable despite numerous spelling, grammar, and structural errors. However, the structure is somewhat disorganized, and the writing quality detracts from the clarity.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance in favor of computers. It provides relevant examples to support the stance, such as improving hand-eye coordination, learning about distant places, and maintaining communication with family. However, the text has significant structural and grammatical issues, which affect the overall clarity and flow. Despite these issues, the main idea is understandable, and the essay has a basic structure with a beginning, middle, and end.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance that computers are beneficial for connecting people and aiding in education. However, it lacks a clear and well-structured format, with an unclear beginning, middle, and end. The reasons provided are relevant but not well-developed. Despite minor spelling and grammar errors, the main idea is somewhat understandable.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text does not address the topic of computers and their effects on society. It also does not present a clear stance or opinion on this topic, nor does it provide any relevant examples or reasons to support a stance. The main idea is not understandable in the context of the given criteria, and it lacks a basic structure. Therefore, it completely fails to meet the criteria.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and attempts to present a stance. However, the stance is not clearly articulated, and the supporting examples are vague and not well-developed. The main idea is somewhat understandable, but the structure and coherence are lacking, with multiple errors and unclear sentences. The essay has a basic structure but requires significant improvement to fully meet the criteria.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance that computers are both useful and potentially harmful. The essay provides several relevant examples, such as using computers for research and paying bills, and the negative impact on physical activity. The main idea is understandable despite numerous spelling and grammatical errors. However, the structure is somewhat disjointed, and the argument could be more coherent.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance. It provides some reasons and examples, even though they are not well-developed or clearly articulated. The main idea is understandable despite numerous errors, and it has a basic structure. However, the quality of support and coherence is lacking, which prevents it from meeting the criteria more fully.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance against excessive computer use. It provides some relevant examples and reasons to support its stance, such as the importance of family time and exercise. However, the main idea becomes confusing towards the end, and the structure lacks coherence in some parts. Additionally, there are some significant errors that impact the overall clarity of the essay.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a clear stance against the use of computers. It provides multiple reasons to support its stance, such as the impact on exercise, enjoying nature, and interacting with friends. The main idea is understandable despite some errors, and the essay has a basic structure with a beginning, middle, and end. However, there are minor spelling and grammar issues that slightly detract from the overall clarity.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance on the topic. However, it only provides one main reason to support its stance, and the structure and clarity are somewhat compromised due to numerous errors and awkward phrasing. While the main idea is understandable, the lack of coherent structure and multiple repetitions hinder its effectiveness.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance against the increasing dependence on computers. The essay provides several reasons and examples to support its stance, such as the lack of exercise, reduced human interaction, and high costs associated with computers. The main idea is understandable despite numerous spelling and grammatical errors. The essay also has a basic structure with a beginning, middle, and end. However, the essay could be more coherent and better organized, and the numerous errors slightly hinder its readability.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance, provides multiple relevant examples to support its stance, has an understandable main idea, and follows a basic structure with a beginning, middle, and end. Minor spelling, grammar, or structural issues do not significantly impact the overall assessment.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 0.8,
+          "ai_reason": "The essay mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear positive stance, and provides several relevant examples supporting its viewpoint. The main idea is understandable despite a few spelling and grammatical errors. The essay has a basic structure with a beginning, middle, and end. However, there are some minor structural issues and occasional lack of coherence in certain parts which prevent it from fully meeting all criteria.",
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "iteration": 5,
+      "rubric": [
+        "Does the essay address the topic of computers and their effects on society?",
+        "Does the essay present a clear and developed stance on the topic?",
+        "Does the essay provide specific and relevant examples or reasons to support its stance?",
+        "Is the essay's argument logical and coherent, even if there are some errors?",
+        "Does the essay demonstrate critical thinking about the topic?",
+        "Is the essay persuasive in its overall argument?",
+        "Ignore redactions (e.g., @PERSON1, @LOCATION1) when evaluating the essay",
+        "Minor spelling, grammar, or structural issues should not significantly impact the score unless they severely hinder comprehension"
+      ],
+      "kappa": 0.5901302261823167,
+      "kappa_delta": 0.10986977381768326,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria for several reasons. It addresses the topic of computers and their effects on society in a very superficial manner. The stance is not clearly developed, and there are no specific examples or reasons provided to support the opinion. The argument lacks coherence and does not demonstrate critical thinking. Additionally, the text is not persuasive in its overall argument.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0.2,
+          "ai_reason": "The text fails to meet most of the criteria. While it touches on the topic of computers and their effects on society, it does not present a clear or developed stance. The examples provided are vague and not well-explained. The argument lacks coherence and logical structure, and there is little evidence of critical thinking. The essay is not persuasive in its argument and contains numerous errors that hinder comprehension.",
+          "delta": -0.2
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria as it addresses the topic of computers and their effects on society and provides a stance. However, it lacks depth, specific examples, and detailed reasoning. The argument is somewhat logical but not fully developed or persuasive, and there are numerous spelling and grammatical errors that slightly hinder comprehension.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance that computers are beneficial. However, the stance is not fully developed, and the examples provided are somewhat vague and lack depth. The argument is logical but not very coherent due to grammatical errors and structural issues. There is some evidence of critical thinking, but it is not well articulated. Overall, the essay partially meets the criteria but requires significant improvement in clarity, detail, and coherence.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and attempts to present a stance. However, the stance is not clearly developed and lacks coherent structure. The examples provided are relevant but not well-explained, and the argument is somewhat logical but lacks depth and critical thinking. Minor spelling and grammar issues are present but do not severely hinder comprehension.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance. However, the argument is somewhat repetitive and lacks depth in critical thinking and persuasion. The examples provided are relevant but not well-developed. The essay's coherence is also affected by some minor errors. Overall, it meets some criteria but falls short in several areas.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance that computers are beneficial. It provides some specific examples, such as using Facebook to communicate and educational websites for learning. However, the argument lacks coherence and has several errors that hinder comprehension. The essay shows some critical thinking but is not very persuasive overall.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a clear stance. However, it only partially meets the criteria as the arguments are not fully developed, and the examples provided are somewhat general and lack depth. While the essay demonstrates some critical thinking and attempts to be persuasive, the overall argument could be more logical and coherent. Additionally, there are several spelling and grammatical errors that, even though minor, slightly hinder comprehension.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a stance, but the argument lacks coherence and logical flow. The examples provided are specific but not always relevant or effectively used to support the stance. Additionally, the text lacks critical thinking and is not very persuasive overall. Minor spelling and grammar errors are present but do not severely hinder comprehension.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society, presenting a clear stance that supports the positive impact of computers. It provides specific examples, such as hand-eye coordination, learning, and communication benefits. The argument is logical and coherent, though there are some minor errors in spelling and grammar. The essay demonstrates critical thinking and is persuasive overall, but it could benefit from more depth and refinement in its arguments.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance that computers are beneficial. It provides specific examples like socializing, keeping in touch, accessing information, and working from home. However, the argument lacks coherence and structure, and there are numerous spelling and grammar errors that slightly hinder comprehension. The critical thinking and persuasiveness are also somewhat weak, as the essay relies heavily on personal anecdotes without deeper analysis.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society and presents a clear stance. It provides some specific examples to support its stance, such as hand-eye coordination and communication with distant family members. However, the argument is not very coherent and suffers from numerous spelling and grammatical errors, which slightly hinder comprehension. The essay does attempt critical thinking but lacks depth and persuasiveness in its overall argument.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria. While it touches on the topic of computers and their effects on society, it lacks a clear and developed stance. The argument is neither logical nor coherent, and it does not provide specific or relevant examples to support its stance. Additionally, the essay does not demonstrate critical thinking or persuasiveness in its overall argument.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text does not adequately address the topic of computers and their effects on society. It lacks a clear and developed stance on the topic, does not provide specific examples or reasons, and fails to demonstrate critical thinking or persuasiveness. The statement is too vague and unrelated to the criteria, making it difficult to evaluate under the given steps.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet most of the criteria. While it mentions computers and their significance, it lacks a clear and developed stance, specific and relevant examples, and logical coherence. The argument is fragmented and does not demonstrate critical thinking or persuasiveness. The structural issues are significant enough to hinder comprehension, making it difficult to follow the main points.",
+          "delta": 0.2
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0,
+          "ai_reason": "The essay fails to meet the criteria in several key areas. While it addresses the topic of computers and their effects on society, the stance is not clearly developed, and the text is riddled with errors that hinder comprehension. The argument lacks coherence, and there are insufficient specific examples or reasons provided to support the stance. Additionally, the essay does not demonstrate critical thinking or persuasiveness effectively.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria. It does not present a clear and developed stance on the topic of computers and their effects on society. The argument is not logical or coherent, and the examples provided are vague and insufficient. Additionally, the essay lacks critical thinking and is not persuasive. Minor spelling and grammar issues also hinder comprehension.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria in several key areas. While it addresses the topic of computers and their effects on society, the essay lacks a clear and developed stance, and its argument is not logical or coherent. There are numerous grammatical and structural issues that severely hinder comprehension. Additionally, the essay does not provide specific and relevant examples or reasons to support its stance, nor does it demonstrate critical thinking about the topic or persuasively argue its point.",
+          "delta": 0.6
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society, presents a clear stance, and provides specific reasons to support its stance. However, while the overall argument is logical and coherent, minor spelling and grammar issues slightly hinder comprehension. The essay demonstrates critical thinking and is persuasive but could benefit from more polished language and additional examples.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0,
+          "ai_reason": "The text fails to meet the criteria in several significant ways. While it addresses the topic of computers and their effects on society, the stance is not clearly developed and the argument lacks coherence. There are specific examples, but they are not well explained or relevant. The text does not demonstrate critical thinking, and the numerous spelling, grammar, and structural issues severely hinder comprehension. Overall, the essay does not present a logical or persuasive argument.",
+          "delta": 0.6
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society and presents a clear stance against the overuse of computers. It provides specific examples to support its stance, such as the impact on physical exercise, human interactions, and financial costs. The argument is mostly logical and coherent, though it contains some hyperbolic statements and minor errors. The essay demonstrates critical thinking and is somewhat persuasive in its arguments. Minor spelling and grammar issues are present but do not severely hinder comprehension.",
+          "delta": 0.19999999999999996
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance, and provides specific examples to support its arguments. However, the coherence and persuasiveness of the essay are somewhat hindered by the presence of redacted information, which makes some parts difficult to follow. Additionally, while the essay shows critical thinking, some examples could have been more relevant or detailed to strengthen the argument further.",
+          "delta": 0.19999999999999996
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance. However, the essay lacks coherence in its arguments and has several grammatical and structural errors that hinder comprehension. While it provides specific examples, they are not always relevant or well-developed. Critical thinking is minimally demonstrated, and the persuasive element is weak.",
+          "delta": 0.20000000000000007
+        }
+      ]
+    },
+    {
+      "iteration": 6,
+      "rubric": [
+        "Does the essay address the topic of computers and their effects on society?",
+        "Does the essay present a clear opinion or stance on the topic?",
+        "Does the essay provide at least one relevant example or reason to support its stance?",
+        "Is the main idea of the essay understandable, even if there are some errors?",
+        "Does the essay show some attempt at reasoning about the topic?",
+        "Ignore any redactions (e.g., @PERSON1, @LOCATION1) when evaluating the essay",
+        "Do not penalize for spelling, grammar, or structural issues unless they completely obscure the meaning",
+        "Consider the overall message rather than focusing on individual sentences or paragraphs"
+      ],
+      "kappa": 0.4197036443732479,
+      "kappa_delta": 0.28029635562675204,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text addresses the topic of computers and their effects on society and provides a clear opinion that computers help people. It gives a relevant example by mentioning that computers provide information and can help people learn. The main idea is understandable despite minor errors, and there is an attempt at reasoning. However, the essay is very brief and lacks depth, making it only partially meet the criteria.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance about illegal and dangerous activities associated with computer use. However, it lacks clear reasoning and does not provide sufficient examples to support its points thoroughly. The main idea is understandable despite some errors, but the reasoning is minimal and underdeveloped.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a stance, and provides some examples. However, the reasoning is not fully developed, and the main idea is somewhat obscured by the lack of clarity in the writing.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion that computers benefit society, and provides several relevant examples such as improved hand-eye coordination, learning about different cultures, and easy access to information. The main idea is understandable despite some errors, and there is an attempt at reasoning about the topic. The overall message is clear and coherent.",
+          "delta": -0.8
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance that computers should be used more. It also provides some reasons and examples, such as learning about faraway places and communicating with friends online. However, the reasoning is somewhat disjointed and lacks depth, making the main idea only somewhat understandable. Despite some errors, the overall message is clear, but the essay does not fully develop its arguments.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society, presenting a clear stance on the negative impacts. It provides relevant reasons and examples, such as lack of exercise, reduced face-to-face interaction, and the risk of talking to strangers. The main idea is understandable, and there is an attempt at reasoning about the topic. However, it lacks depth in its arguments and could benefit from more detailed examples and explanations.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The essay addresses the topic of computers and their effects on society. It presents a clear opinion advocating for computers and provides several relevant examples to support its stance. However, the reasoning is somewhat scattered and could be more coherent. The main idea is understandable, but there are errors that slightly obscure the meaning. Overall, it partially meets the criteria but has room for improvement in clarity and structured reasoning.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion, provides relevant examples, and the main idea is understandable. However, while it shows some reasoning, the arguments could be more developed and the reasoning more cohesive.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear opinion against the idea that computers have negative effects. It provides examples and some reasoning to support its stance. However, the main idea is somewhat obscured by excessive focus on specific games and websites, which could detract from the overall argument. Additionally, there are some coherence issues that slightly impact the overall message.",
+          "delta": 0.20000000000000007
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance, and provides relevant examples to support its opinion. The main idea is understandable, and there is an attempt at reasoning about the topic. However, there are some minor issues with coherence and clarity, and the examples could be more detailed to fully support the arguments.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance, provides multiple relevant examples to support its stance, and the main idea is understandable. There is also evident reasoning about the topic, and despite some spelling and grammar errors, they do not obscure the overall meaning of the essay.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear stance that computers are beneficial. It provides relevant examples such as improving hand-eye coordination, learning about distant places, and communicating with distant family members. However, the main idea is somewhat obscured by the excessive redactions and errors, and the reasoning is not always clearly presented. Despite these issues, the overall message is understandable.",
+          "delta": 0.4
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society, presents a stance by suggesting that computers should be given to people to stay connected, and provides relevant examples such as helping kids with homework and connecting with family. However, the main idea is not entirely clear, and the reasoning is relatively simplistic and underdeveloped.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text does not address the topic of computers and their effects on society. It lacks a clear opinion or stance on the topic, and it does not provide any relevant examples or reasons to support a stance. While the main idea is somewhat understandable, it does not show any attempt at reasoning about the specific topic of computers and their effects on society. Therefore, it completely fails to meet the criteria.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a stance, though not very clearly. It provides some reasons and attempts at reasoning, but the examples and explanations are vague and difficult to follow. Despite errors, the main idea is somewhat understandable.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear stance on the topic. However, the support for the stance is fragmented and lacks coherence. The main idea is understandable despite errors, and there is some attempt at reasoning. Overall, the message is conveyed, but many parts are unclear or poorly articulated.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear opinion on the topic. However, the examples and reasoning are very limited and not well-developed. The main idea is understandable, but there are several errors that slightly obscure the meaning. Overall, it shows some attempt at reasoning but lacks depth and clarity.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear opinion on the subject. It provides relevant examples and reasons to support its stance. However, the essay has several structural and coherence issues that slightly obscure the meaning and reasoning, making it difficult to fully comprehend the main idea in some parts.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance against the benefits of computers, and provides multiple relevant reasons (lack of exercise, lack of enjoying nature, and lack of interacting with friends) to support this stance. The main idea is understandable despite some errors, and there is an attempt at reasoning about the topic. Overall, the message is clear and aligns well with the criteria.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear opinion that computers are beneficial. It provides some reasons and examples, such as research, playing games, and interaction. However, the main idea is somewhat obscured by structural issues, and the reasoning is not fully developed or clearly articulated.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear stance, provides multiple relevant examples, maintains an understandable main idea, and shows reasoning about the topic. The overall message is clear and coherent despite minor errors.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion that computers are beneficial, provides multiple relevant examples to support its stance, and the main idea is understandable despite minor errors. The essay shows reasoning about the topic and the overall message is clear.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society, presents a clear opinion, and provides several relevant examples and reasons to support its stance. The main idea is understandable, and there is an attempt at reasoning about the topic. However, the essay has some structural and grammatical issues that slightly obscure the meaning in certain parts, preventing it from fully meeting all criteria.",
+          "delta": 0.0
+        }
+      ]
+    },
+    {
+      "iteration": 7,
+      "rubric": [
+        "Does the essay address the topic of computers and their effects on society?",
+        "Does the essay present a clear opinion about computers' impact?",
+        "Does the essay mention at least one effect or example related to computers and society?",
+        "Is the overall message of the essay understandable?",
+        "Ignore any redactions (e.g., @PERSON1, @LOCATION1) when evaluating",
+        "Do not penalize for spelling, grammar, or structure unless the meaning is completely unclear",
+        "Focus on the presence of ideas rather than their quality or development"
+      ],
+      "kappa": 0.45872848612574646,
+      "kappa_delta": 0.2412715138742535,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear opinion that computers help people. It mentions that computers provide information and help with learning. However, the text lacks depth and only provides a very basic example without elaboration. The overall message is understandable.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear opinion about their impact. It mentions effects such as illegal activities and the potential danger of meeting people online. However, the overall message is somewhat unclear due to vague wording and lack of specific examples.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It mentions computers and their effects on society, provides a few examples such as educational websites and online shopping, and the overall message is understandable. However, it lacks a clear opinion on the overall impact of computers and does not fully elaborate on the effects mentioned.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about the positive impact of computers, and mentions several effects such as improving hand-eye coordination and enabling communication. The overall message is understandable, but there are minor issues with clarity in some parts.",
+          "delta": -0.6000000000000001
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society and presents a clear opinion about their impact. It mentions several effects and examples related to computers and society, such as learning about faraway places and communicating with friends online. The overall message is understandable, despite some spelling and grammatical errors. The text successfully meets most of the criteria, but there are minor issues that prevent it from fully meeting all criteria.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about the impact, mentions multiple effects related to computers and society, and the overall message is understandable. The presence of ideas is clear and relevant to the topic.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about computers' impact, mentions multiple effects and examples related to computers and society, and the overall message is understandable. Any redactions are appropriately ignored, and the presence of ideas is sufficient.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about the negative impact of computers, mentions several specific effects and examples, and the overall message is understandable. Redactions and minor spelling or grammar issues do not obscure the meaning of the essay.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about computers' impact, mentions multiple effects and examples related to computers and society, and the overall message of the essay is understandable. The presence of ideas is clear and comprehensive, fulfilling the requirements set forth for evaluation.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about computers' impact, and mentions multiple effects related to computers and society. The overall message is understandable despite some minor issues with clarity and structure.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about computers' impact, mentions several effects and examples related to computers and society, and the overall message of the essay is understandable. The presence of ideas is clear throughout the text.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about their impact, and includes multiple examples related to computers and society. The overall message is understandable despite some redactions and minor clarity issues. However, the clarity and coherence could be improved, which prevents it from fully meeting all criteria.",
+          "delta": 0.19999999999999996
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear opinion about their impact. It mentions examples such as connecting with family and helping kids with homework. However, it lacks clarity in its overall message and coherence, making it challenging to fully understand the intended points.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text does not address the topic of computers and their effects on society. It does not present a clear opinion about computers' impact, nor does it mention any specific effects or examples related to computers and society. The overall message is unrelated to the criteria provided for evaluation.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society, and it mentions the popularity and technological improvement of computers. However, the essay does not present a clear opinion about computers' impact, and the overall message is somewhat unclear due to the disjointed and repetitive sentences.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society, and presents a clear opinion about the impact of computers. It mentions effects and examples, such as making people lazy and helping with tasks like paying bills and uploading pictures. The overall message is understandable. However, the essay lacks coherence and clarity in some parts, and there are numerous grammatical errors that, while not penalized, do affect the flow of ideas.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear opinion about the negative impacts of computer use. It mentions specific effects such as eye damage and the necessity of wearing glasses. However, the overall message is somewhat disjointed and lacks clarity in parts, making it only partially meet the criteria.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear opinion about the negative impact of computers. It mentions several effects and examples related to computers and society, such as spending time with family, exercising, and school work. However, the overall message becomes unclear towards the end due to incomplete sentences and disjointed thoughts. Despite this, the presence of ideas is evident.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The text addresses the topic of computers and their effects on society and presents a clear opinion about their negative impact. It mentions several effects related to computers and society, such as lack of exercise, enjoyment of nature, and interaction with friends. The overall message of the essay is understandable despite some minor issues with spelling and grammar. The text almost fully meets the criteria but could be more comprehensive in its presentation of ideas.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a clear opinion about the positive impact of computers. It also mentions several effects, such as research, playing games, and interacting with others. However, the overall message is somewhat unclear due to numerous distractions and a lack of coherent structure. While the presence of ideas is evident, the delivery and clarity are limited.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion about the negative impacts, and mentions several effects or examples. The overall message is understandable, but some parts are slightly unclear or exaggerated, which slightly detracts from fully meeting all criteria.",
+          "delta": 0.19999999999999996
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion that computers are beneficial, mentions multiple effects and examples related to computers and society, and conveys an understandable overall message.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society, presents a clear opinion on the positive impact of computers, mentions multiple effects and examples, and the overall message is understandable. The focus is on the presence of ideas rather than their quality or development, and the text contains sufficient ideas to meet the criteria.",
+          "delta": -0.19999999999999996
+        }
+      ]
+    },
+    {
+      "iteration": 8,
+      "rubric": [
+        "Does the essay mention computers and their effects on society?",
+        "Does the essay express any opinion about computers?",
+        "Does the essay provide at least one example or effect related to computers and society?",
+        "Is the overall message of the essay somewhat understandable, even if there are errors?",
+        "Is the essay more than a few sentences long?",
+        "Ignore any redactions (e.g., @PERSON1, @LOCATION1) when evaluating",
+        "Do not penalize for spelling, grammar, or structure unless the meaning is completely unclear"
+      ],
+      "kappa": 0.4327193256322197,
+      "kappa_delta": 0.26728067436778025,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their effects on society and expresses an opinion about them. However, it lacks specific examples or detailed effects related to computers and society. The overall message is understandable, but the text is very brief and lacks depth.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion, and provides examples of effects related to computers and society. However, the overall message is somewhat understandable but could be clearer, and the text is very brief.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It discusses computers and their varied effects on society, provides examples such as educational websites and gaming sites, and expresses opinions about their impact. The overall message is understandable despite some errors, and the essay is more than a few sentences long. However, it could be clearer and more detailed in some areas.",
+          "delta": -0.6000000000000001
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, provides multiple examples of positive effects related to computers and society, and the overall message is understandable. Additionally, the essay is more than a few sentences long.",
+          "delta": -0.8
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion, and provides several examples of how computers can be useful. However, the overall message is somewhat understandable but not very clear due to numerous errors and lack of coherent structure. The essay is more than a few sentences long, but the quality of the argumentation is weak.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses opinions about computers, provides examples of effects related to computers and society, and has an overall understandable message. Additionally, it is more than a few sentences long.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, provides multiple examples and effects related to computers and society, and the overall message is understandable. The essay is also more than a few sentences long.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, provides multiple examples of the effects of computers on society, and presents an overall message that is understandable despite some minor errors. Additionally, the essay is more than a few sentences long.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, provides multiple examples and effects related to computers and society, has an understandable overall message, and is more than a few sentences long.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, provides multiple examples and effects related to computers and society, and has an overall understandable message. Additionally, it is more than a few sentences long.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses opinions about computers, provides multiple examples of how computers impact various aspects of life, and conveys its overall message in an understandable manner, despite some errors. Additionally, the essay is more than a few sentences long and includes various points supporting its argument.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.8,
+          "ai_reason": "The text almost fully meets the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion, provides examples, and is more than a few sentences long. The overall message is somewhat understandable despite some errors. However, the clarity and coherence could be improved, which prevents it from fully meeting all criteria.",
+          "delta": 0.19999999999999996
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their effects on society, and expresses an opinion about computers. It provides examples of how computers help people connect and assist kids with homework. However, the overall message is somewhat unclear due to errors in wording and structure, and it's only a few sentences long.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text does not mention computers or their effects on society, nor does it provide any examples or express any opinions about computers. It is also very short and does not provide a clear or understandable message related to the criteria.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their effects on society, and expresses an opinion about computers. It also hints at examples of their impact. However, the overall message is somewhat unclear due to poor grammar and structure, making it difficult to fully understand the conveyed points. Despite these issues, it meets the minimum length requirement.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their effects on society and expresses an opinion about them. It provides examples and effects related to computers, such as making people lazy and useful for tasks like paying bills. The overall message is somewhat understandable despite numerous errors. However, the text lacks coherence and clarity, affecting its ability to fully meet the criteria.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their effects on society, and expresses an opinion about computers. It provides an example of potential eye damage from prolonged use. The overall message is understandable despite some errors, and the essay is more than a few sentences long. However, the explanation is somewhat simplistic and lacks depth in discussing the effects.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, and provides examples. However, the overall message becomes unclear towards the end due to coherence issues, and the meaning is significantly obscured in places.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, provides multiple examples and effects related to computers and society, and delivers an overall understandable message. Additionally, the essay is more than a few sentences long.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses a positive opinion about them, and provides examples of their benefits. However, the overall message is somewhat understandable but very unclear due to numerous errors and convoluted sentences. Additionally, the text is more than a few sentences long, but the coherence and clarity are significantly lacking.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It discusses computers and their effects on society, expresses a clear opinion, and provides multiple examples of the negative effects of computers. The overall message is understandable despite some errors, and the essay is more than a few sentences long.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, provides several examples of how computers impact society, and the overall message is understandable. Additionally, the text is more than a few sentences long, and no significant issues with clarity are present despite minor errors.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their effects on society, expresses an opinion about computers, provides multiple examples and effects related to computers and society, conveys an understandable overall message, and is more than a few sentences long. Despite some spelling and grammar errors, these do not obscure the meaning of the text.",
+          "delta": -0.19999999999999996
+        }
+      ]
+    },
+    {
+      "iteration": 9,
+      "rubric": [
+        "Does the essay mention computers and their impact on society?",
+        "Does the essay express any opinion about computers?",
+        "Does the essay provide at least one specific example related to computers and society?",
+        "Is the essay's main message understandable, even if there are errors?",
+        "Is the essay at least a paragraph long?",
+        "Ignore redactions (e.g., @PERSON1, @LOCATION1) when evaluating",
+        "Do not penalize for spelling, grammar, or structure unless the meaning is completely unclear"
+      ],
+      "kappa": 0.5196202531645571,
+      "kappa_delta": 0.1803797468354429,
+      "results": [
+        {
+          "essay_id": "1121",
+          "human_score": 0.0,
+          "ai_score": 0.4,
+          "ai_reason": "The text mentions computers and their impact on society and expresses an opinion about them. However, it lacks specific examples related to computers and society, and the main message, while understandable, is somewhat vague. The essay is a paragraph long but could benefit from more detail and clarity.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1555",
+          "human_score": 0.0,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses an opinion about computers, and provides specific examples related to computers and society. However, the main message is somewhat understandable despite some errors, and it is at least a paragraph long. The text could be clearer and more detailed to fully meet the criteria.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "838",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses an opinion about them, and provides specific examples. The main message is understandable despite some errors, and it is at least a paragraph long. However, it lacks clarity in some areas and does not fully develop its arguments.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "60",
+          "human_score": 0.2,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses an opinion, and provides specific examples such as hand-eye coordination and communication. The main message is understandable, and the text is at least a paragraph long. However, there are some minor issues with clarity and detail that prevent it from fully meeting all criteria.",
+          "delta": -0.6000000000000001
+        },
+        {
+          "essay_id": "1714",
+          "human_score": 0.4,
+          "ai_score": 1,
+          "ai_reason": "The text successfully meets the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses an opinion about computers, provides specific examples related to computers and society, has a clear main message, and is at least a paragraph long. While there are grammatical errors, they do not obscure the overall meaning.",
+          "delta": -0.6
+        },
+        {
+          "essay_id": "923",
+          "human_score": 0.4,
+          "ai_score": 0.8,
+          "ai_reason": "The text almost fully meets the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses opinions about computers, provides specific examples, and is understandable despite minor errors. It is also at least a paragraph long. However, the essay could be more cohesive and better structured.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1503",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses an opinion about computers, provides specific examples, has a clear and understandable main message, and is at least a paragraph long.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "672",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria. It mentions computers and their impact on society, expresses an opinion about computers, provides specific examples related to computers and society, has an understandable main message, and is at least a paragraph long. Despite minor errors, the meaning is clear.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "1194",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It discusses computers and their impact on society, expresses an opinion about computers, provides specific examples related to computers and society, conveys a clear main message, and is at least a paragraph long. Although there are some redactions and minor errors, they do not obscure the overall meaning.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1066",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses an opinion about computers, provides specific examples related to the benefits of computers, and has a clear main message. The essay is more than a paragraph long and the meaning is understandable despite minor errors.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "435",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all criteria outlined in the evaluation steps. It discusses the impact of computers on society, expresses opinions about computers, provides specific examples related to computers and society, has a clear main message, and is at least a paragraph long. Despite some spelling and grammar errors, the meaning remains clear.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "287",
+          "human_score": 1.0,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses an opinion about computers, provides specific examples, and is understandable despite some errors. The essay is more than a paragraph long. However, it does have some clarity issues due to redactions and minor grammatical errors.",
+          "delta": 0.19999999999999996
+        },
+        {
+          "essay_id": "22",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It mentions computers and their impact on society, and provides an opinion about computers. However, it lacks specific examples and the main message is somewhat understandable but not fully clear. It is at least a paragraph long.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "359",
+          "human_score": 0.0,
+          "ai_score": 0,
+          "ai_reason": "The text completely fails to meet the criteria outlined in the evaluation steps. It does not mention computers or their impact on society, express any opinion about computers, provide any specific examples related to computers and society, or present an understandable main message related to computers. Additionally, the text is not at least a paragraph long.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1562",
+          "human_score": 0.2,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their impact on society, expresses the opinion that computers are important and improving, and provides a general example of people buying computers. The main message is somewhat understandable despite errors, and the text is at least a paragraph long. However, it lacks clarity, specific examples, and a coherent structure.",
+          "delta": -0.39999999999999997
+        },
+        {
+          "essay_id": "1647",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their impact on society, expresses an opinion about computers, and provides specific examples related to computers and society. The main message is understandable despite errors, and the essay is at least a paragraph long. However, the clarity and coherence are affected by numerous grammatical and structural issues.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "474",
+          "human_score": 0.4,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their impact on society, expresses an opinion about computers, and provides specific examples related to their use. However, the main message is somewhat understandable despite noticeable errors, and it is at least a paragraph long. The text's coherence and clarity are compromised by spelling and grammar mistakes, but not to the point where the meaning is completely unclear.",
+          "delta": -0.19999999999999996
+        },
+        {
+          "essay_id": "1556",
+          "human_score": 0.6,
+          "ai_score": 0.6,
+          "ai_reason": "The text partially meets the criteria. It mentions computers and their impact on society, expresses an opinion about computers, and provides a specific example related to the societal impact of computers. The main message is understandable, and the text is at least a paragraph long. However, it has significant coherence and clarity issues towards the end, reducing its overall effectiveness.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1529",
+          "human_score": 0.6,
+          "ai_score": 1,
+          "ai_reason": "The essay fully meets all the criteria outlined in the evaluation steps. It discusses computers and their impact on society, expresses a clear opinion against the benefits of computers, provides specific examples related to the lack of exercise, enjoyment of nature, and social interaction, and its main message is understandable despite minor errors. The essay is also more than a paragraph long.",
+          "delta": -0.4
+        },
+        {
+          "essay_id": "646",
+          "human_score": 0.6,
+          "ai_score": 0.8,
+          "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It discusses the impact of computers on society, expresses positive opinions about them, and provides examples of their use in education and daily life. The main message is understandable despite errors, and the text is at least a paragraph long. However, some points could be clearer and more specific.",
+          "delta": -0.20000000000000007
+        },
+        {
+          "essay_id": "1643",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It discusses computers and their impact on society, expresses a clear opinion about computers, provides specific examples related to computers and society, and has a main message that is understandable. Additionally, it is at least a paragraph long and does not have any issues that make the meaning completely unclear.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "1452",
+          "human_score": 1.0,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses clear opinions about computers, provides multiple specific examples related to computers and society, has a clear and understandable main message, and is more than a paragraph long.",
+          "delta": 0.0
+        },
+        {
+          "essay_id": "793",
+          "human_score": 0.8,
+          "ai_score": 1,
+          "ai_reason": "The text fully meets all the criteria outlined in the evaluation steps. It mentions computers and their impact on society, expresses a clear opinion about computers, provides specific examples related to computers and society, has an understandable main message, and is at least a paragraph long.",
+          "delta": -0.19999999999999996
+        }
+      ]
+    }
+  ],
+  "final_results": [
+    {
+      "essay_id": "1324",
+      "essay_text": "Dear local Newspaper, I think people using a computer has a effect. using a computer can help people in many ways. You can talk to people world wide, it helps you stay organized, and you can create very useful things like a or a power point using a computer. Talking to people world wide can be a very useful thing. Say that you have family members that live in @LOCATION1 or @LOCATION2 you can keep in touch with them by e-mail or video chat. Also, if there is a national and nedds to talk to the other, governers around the world for advices help he can do that quickly and easily. Using a computer can also help you stay organized. For example my uncle helps file takes computer to make sure all of the files get saved and they are in the light places. Imagine all of the papers and space he would use if he had to do by hand or didnt use a computer. Computers also help teachers. Teachers enter grades, e-mail parents, and even create test or quizes and they know it will be nice and organized in the computer files instead of in paper files on their desk. Speaking of quizzes that teachers make on the computer, they can also make alot of other things like power points. Power points can help them put alot of information on the screen and it helps the students learn, which is a positive effect. If you had a small business that just started out you can make a brochure to help advertising. Lastily, you can go on microsoft excel and make a schedule that can help your employees know who has to work when, or students can know what class they have to be in at what time. In conclusion, computers are very helpful in everyday for alot of different people. Talking to worldwide can help you stay in, so you dont lose connection with your. They also have effect they help business people stay organized. Lastly, they can help teachers create test or powerpoints which helps kids learn. So in all, I would have to agree that computers have a positive effect on society. Also, doesn't typeing your newspaper articles make it more organized and quicker to print them?",
+      "human_score": 0.6,
+      "ai_score": 0.6,
+      "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents a basic argument with some relevant examples. However, the argument is not well-developed, and the essay lacks depth in its analysis. The main idea is somewhat clear but not easy to follow due to numerous grammatical errors and structural issues that hinder comprehension. The essay demonstrates some logical reasoning but falls short in terms of critical thinking and persuasiveness.",
+      "delta": 0.0
+    },
+    {
+      "essay_id": "411",
+      "essay_text": "Dear @CAPS1 of my local newspaper, More and more people use computers, but not everyone agrees that this benefits society. These boxes can be harmful to their users' eyes. In addition, they lead to less interaction with \u201creal\u201d people. Finally, they lead to a very unhealthy lifestyle. Computers are harmful to our society. For starters, computers are harmful because they are very bad for our eyes. Between the @DATE1 @DATE2 and @DATE3, doctors saw nearly a @PERCENT1 increase in eye problems that resulted in either surgery, glasses, or contacts. This can be directly associated with the overuse of personal computers. Also, studies have shown that common citizens who use these cootraptions for over four hours each day end up with an extremely deteriorated vision by the age of @NUM1. Finally, @CAPS2 @CAPS3 stated that overuse of computers have led to a very negative affect on the eyesight of their workers. It can be seen, how work gets done faster, however the cost of medical treatments actually surpasses the little extra profit gained by modernizing. Secondly, computers are harmful because they lead to less time being with \u201creal\u201d people. To begin with, studies have shown that people simply don\u2019t learn as much about their peers by talking to them through a box. Also, a study by the @ORGANIZATION1 has shown that there are roughly @PERCENT2 fewer conversations at social gatherings than just @DATE1. This is alarming because at that rate people @MONTH1 never get to know each other and the world @MONTH1 become an electronically based workspace. Finally @PERSON1, social relations professional, stated that people end up with a lack of understanding when they can\u2019t feel the emotion a person has when he/she is speaking. Sure, you can video chat, but that still does not convey the real feeling behind a person\u2019s words. Finally, computers are harmful because they lead to a very unhealthy lifestyle. To begin with, the lack of fresh air obtained by sitting indoors all day is very bad for lungs and can lead to premature breathing problems. Also, average people get @PERCENT3 fewer workouts, according to @CAPS4\u2019s @CAPS5, which was not likely directly influenced by overuse of computers. Finally the obesity rate has risen from next to nothing to over @NUM2 in the past ten @DATE1. Research showed that the majority of the obese patients spent excessive time on their little boxes of ten. While you might feel that this is not completely due to computers, it has been proven time and time again that these machines are the main reason behind the world\u2019s currently unhealthy lifestyle. Personal computers have a very negative effect toward the society of today. This technology has resulted in very poor eyesight in the general public. In addition, they lead to a much lower amount of social interaction. Finally, they end up forcing people into an unhealthy lifestyle. So, let the word out that computers are bad for society, and try to make the world a better place to live.",
+      "human_score": 1.0,
+      "ai_score": 0.8,
+      "ai_reason": "The text addresses the topic of computers and their effects on society and presents a well-developed argument with relevant examples. The main idea is clear and easy to follow, demonstrating logical reasoning and critical thinking. However, there are minor issues with specific details and coherence that prevent it from fully meeting all criteria.",
+      "delta": 0.19999999999999996
+    },
+    {
+      "essay_id": "877",
+      "essay_text": "Dear editor, I believe that computers are an important part of modern life and proves itself to be available because everyday. Many times we don't even think about using computers, it just becomes a part of our dayly routine. We use computers everyday in many ways, sometimes to stay intouch with a far away friend learn about and experience faraway places, or @MONTH1 be ever to practice hand eye coordination. Computers are so benifical to our life we might not be able to live without them. Most people have experienced a friend or relitive move, when this happens not all hope is lost because with the use of you run stay in touch. Many computers nowadays have built in webcams which alows you to get more than just an email. With these systems you can actualy get an image of your fried or relative. Even oprah winfrey uses the webcam feature on computers to have people \"skype\" on to her show. In adition to this there are many other ways to stay in touch even if your computer is older and have. These reletively new \"social networking series\" include facebook, twitter, and many more. Every morning when i wake up and on sportscenter i always about what famous are posting or twitter pages. This is just another great use of computers. In this economy not many people are spending thousands of to go to a beach paradise in the but with the use of computers, you can go there virtualy. Computers are great in this aspect because they alow you to learn and experience many expensive things for. For example if you wanted to learn somthing about india, you would dn't have to go to the local library and check out a book, you could just type there are many such as this that give you access information that you could ever need. This prooves also to be valable if you are studing faraway while a paper. The computer is just a great way to get information with out every having to leave your home. Hand-eye coordination is an important skill that many people lack. It alows you to throw a baseball, play videogames, or even drive car. Many computer sceptics believe that you don't benifit from using computers but a recen study done by @LOCATION1 news and report reveals that people who use computers had @PERCENT1 better hand-eye-coordination than computers users. When driving you often need to operate the car, up the radio volume, and pass out goldfish to your kids at the same time, so this could be as where improved hand-eye cordination would be handy. Hand eye coordination is an important and this skill is further developed by the use of computers. In conclusion, computers are benificial both in hand-eye coordination and in communication, as well as in geting information or a topic. Computers are one the most significant ever and are valuble in many many ways.",
+      "human_score": 1.0,
+      "ai_score": 0.6,
+      "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and presents an argument about their impact. However, the argument is not well-developed, and the examples provided are somewhat relevant but lack depth and specificity. The main idea is present but not clearly articulated, leading to some difficulty in following the essay. While there are attempts at logical reasoning and critical thinking, they are not fully convincing, and the persuasive element is weak. Minor spelling, grammar, and structural issues also slightly hinder comprehension.",
+      "delta": 0.4
+    },
+    {
+      "essay_id": "343",
+      "essay_text": "Dear editor, @CAPS1 name is @CAPS2 and I am a @NUM1 year old girl; yet active in reading the daily newspaper. As I was going through last weeks newspapers, I saw an ad to write an article about either the negative or positive factors about computers. I am here to persuade other readers about the negative affects computers have on people. As an active member of the computer, I take part in all negative factors. People who spend more than one hour on the computer are involved in @CAPS3, @CAPS4, or playing a computer game. of those kids are too involved in their compute games. I saw this segment on @CAPS5 @NUM2 about how @PERCENT1 of all teens play on the computer atleast once when they are supposed to be homework. Computer games distract from kids learning. Kids feel that @CAPS3 is more inportant than doing math homework. Computers don't benefit to kids learning. Kids or even adults who are too involved in some use of computers don't want to talk. They feel they need to focus on winning and beating all their friends. To win, people can't talk, just focus on the game. Kids who need to win and not talk could lead to lifetime results. Being self-consious or having no social skills are the biggest lifetime results from being too involved in a computer game. That is how being too involved in computer games affects their social skills. Kids who are too involved in their computer games, don't get enough exrcersize causing obsity. Kids think they are getting exrcersize by playing but in reality they are doing nothing at all. Kids think they can't leave their game, but they can. there is always a pause button somewhere on the screen. Soon kids get addicted to playing and dont think going outside is important anymore. That is how computer games cause long term effects. In conclusion, computers have no benefits on people. Computers cause no learning to be done anti-socialism, and abesity. All of these results are long term which causes you life to be okay. I dont you want a happy and successful life?! I know I do!",
+      "human_score": 0.8,
+      "ai_score": 0.4,
+      "ai_reason": "The essay addresses the topic of computers and their effects on society and attempts to present an argument about the negative impacts. However, it lacks clarity and coherence in its main idea, and the examples provided are not well-developed or specific. There are several logical inconsistencies and a lack of critical thinking. Additionally, the essay is not very persuasive and has numerous spelling and grammatical errors that, while minor, collectively hinder comprehension.",
+      "delta": 0.4
+    },
+    {
+      "essay_id": "830",
+      "essay_text": "Dear @ORGANIZATION1, Computers have a positive impact on people. Although people aren't outside being active, computers still benefit in a good way. Computers teach hand-eye coordination they're convient and you can interact online with diffrent types of people. Surely, computers teach hand-eye coordination. There are many website on the internet that teach kids to type. Typing helps kids learn the alphabet, learn what the letters look like and shows them where the keys are. Also, there are other sites where the computer interacts with you. Last, there are many kids even adults who have disiexing and get their letters jumbled, but there are softwares where when you type it will say what letter you have typed. Therefore computer teach hand-eye coordination. Have you ever been one of those students who write their papers, but get bad grades because their handwriting was messy? Using a computer is more convient and will make your due assignment as neat as ever. First, computer are convient because you have the answer to any question just at the click of button. Next, theres no need to spend money and go buy a book to look up research just research online for free. Finally, it is convinient for teachers and your employees, because if you need to send in a paper do it via-email. Getting a paper by email is much easier than getting it in pen with samples. Computer are convient in many ways. Computers allow people @NUM1 video chat and talk online. First, there are many families who have at least one member who lives in a different place. Computer allow families to see each other online. Without ever leaving their state. Next, there are other families who have a mom, dad, husband or wife in the army and haven't seen each other in person in years, but see each other on line. Lastly, there are many students and teachers who teach and learn online. This is easy for most people who have busy lives. Therefore you can interact online. As you can see computers have a positive effect. They teach hand eye coordination. They supply online chat, and are very convient. So next time you go to the library to research a book, stay at home do the same online.",
+      "human_score": 0.8,
+      "ai_score": 0.6,
+      "ai_reason": "The essay partially meets the criteria. It addresses the topic of computers and their effects on society and presents a basic argument for their positive impact. However, the argument is not well-developed, and the examples provided are not particularly detailed or specific. The main idea is somewhat clear but could be more coherent. While the essay demonstrates some logical reasoning, it lacks depth in critical thinking and is not particularly persuasive. Minor spelling and grammatical errors, though not severely hindering comprehension, do detract from the overall clarity.",
+      "delta": 0.20000000000000007
+    },
+    {
+      "essay_id": "1426",
+      "essay_text": "To whom it @MONTH1 concern, The @NUM1's ware the beginning of a new age, computers had just come out and were mezmericing people with its intelet. But now more and more people think it\u2019s a waste of time. I for do want think this within these lives you will see my opinion take shape for the following reasons it's an information high lets artists expand their craft and engenirs are now able to plan buildings and bridges on their @CAPS1 to the internet student's and people are of knowledge each day the internet is essenicial to people writting an essay in fact the super intendent of schools in @LOCATION1 has stated that over @PERCENT1 of students will use the internet to help them write an essay. We also don't have to go to the library any were to do research because we have a whole library of information at our house (the computer) another thing is that people are now able to communicate all over the world which will allow us to learn about other staight from the source. Artists are now able to do things were now a new art form of video games has out artists do you like to express yourself do! Music mixing has became my and it is over the will sometimes add additional and lapse other tracks it they don't have to use a typing machine any just jump on the computer type a keyboard. You can use spell check and edit undo instead of having to throw away idea that you didn't like. Artists have been by computers, And lastly are how able to plan out how a building or bridge might look, (which also with the video game making) @CAPS2 can make the house of their when you plan buildings and bridges on computer you can which makes them stronger, before you even start building them with the new soft ware available today how certain structural under natural disasters so they can pick the has the abillity of becoming have way. I hope you can see using way eyes and agree that computers are thely an amazing they that lets got information also help",
+      "human_score": 0.8,
+      "ai_score": 0,
+      "ai_reason": "The text completely fails to meet the criteria outlined in the evaluation steps. It lacks clarity, cohesion, and logical structure. The argument is not well-developed, and there are numerous grammatical and structural issues that severely hinder comprehension. The text also fails to provide relevant and specific examples to support its argument in a coherent manner.",
+      "delta": 0.8
+    },
+    {
+      "essay_id": "872",
+      "essay_text": "Dear @CAPS1 or @CAPS2 The purpose of this letter is about how computers have changed our lives for the better. They have improved our society. Changed our way of life and have made things easier. I am a firm beliver that computer were one of the greatest invention of all time. Computers have had a very vital and positive impact on society. For example, education has vastly expanded since the computer. Both teachers and students have benefited. Students can now search the intrenet and learn about different places, things in history, how to read and write bette, etc. Also computers have been a major part in entertainment. From reading online news to watching movies and listening to music computers entertain all of us. And computers help us connect with friends and even meet new people. Aside from that computers make life easier. People can get degrees from learning online learn another. Research as also easier than is to computers you can just about anything than to computers. Some people say computers stop people acting with family but infact facebook you can still. Computer have also ourlives. From helping small buiness thrive by making it easier to make and recieve orders to help spread information globaly computers make this all possible. As I have shown computers have benefited society and have had a positive effect on human beings from educating individuals to staying in touch with relitives, computers have made their mark on improving the way we live. I hope this letter will help show you that computers are a necesary part of the twenty first century.",
+      "human_score": 0.6,
+      "ai_score": 0.6,
+      "ai_reason": "The text partially meets the criteria outlined in the evaluation steps. It addresses the topic of computers and their effects on society and presents a clear main idea. However, the argument is not well-developed and lacks logical reasoning and critical thinking. The text provides some examples but they are not specific or well-elaborated. Additionally, minor spelling, grammar, and structural issues slightly hinder comprehension.",
+      "delta": 0.0
+    },
+    {
+      "essay_id": "738",
+      "essay_text": "Dear local newspaper, I feel very strong about my opinion of what effects computers have on people as in it helps others communicate with one another, give people info about different types of things, and make people smarter. To me that sounds like something with a positive effect, would you say? First of all, as some people say it doesnt let you interact with family members. Yes it truely does you can interact with both friends, and family members by going to chat rooms such as aim, meebo.web cam meeting such as skype.com. So that throw that concern out or the window you work have to worry about that. Secondly, you get to learn info about differnt types of things such as learning about wild animals any animal like a giraffe, cat, rat or learn about different places like @LOCATION2, @LOCATION3, and @LOCATION1 etc... Also you could find all of this info at home in one day. Most important I would make people smarter the computer teaches you hand eye corrdinations for free. The computer can teach you about any career, or regular job that you would need to learn about in just minutes, if needed? To conclude computers have positive effect on people, it lets people communicate with friends and family, you get to learn about different types of things, and it makes people smarter. Even I was done reading this it I thanked the lord for computer, it helps us so much.",
+      "human_score": 0.4,
+      "ai_score": 0.6,
+      "ai_reason": "The text partially meets the criteria. It addresses the topic of computers and their effects on society and attempts to present a positive argument. However, the argument is not fully developed, and the examples provided are not specific or detailed enough. The main idea is somewhat clear but could be articulated more effectively. While some logical reasoning is present, the essay lacks depth and critical thinking. Persuasiveness is minimal due to the informal tone and lack of robust evidence. Minor spelling and grammar issues are present but do not severely hinder comprehension.",
+      "delta": -0.19999999999999996
+    },
+    {
+      "essay_id": "292",
+      "essay_text": "Dear @ORGANIZATION1, @CAPS1 the world forty years ago. People would need to travel to visit a library to research, every document, doctors notes, and building plan would have to be written by hand or on an old typewriter. Life would have been much more difficult. Today, computers allow us to communicate with one another, access the millions of websites on the internet and help with school work. Almost everyday, my mon and dad receive friend requests from long lost school friends as well as relatives and current friends. Today's computers allow the world to talk to one another and know what is going on. My dad always says \" @CAPS2 makes the world go round.\" With the social networking sites, everyone is receiving tons of @CAPS2 about one another. Another way to communicate is by video chat. All @CAPS3 computers are equipped with a video camera and you can buy one if you have a @CAPS4. This will let you see the person's face are talking to. I have heard many amazing stories about this. One is about a soldier in @LOCATION1 and his present wife back home. The doctors set up a computer equipped with video chat in the operating room and the soldier was, in a way, in two places at once. The man got to see his newborn baby and his wife. Computers can do amazing things! Another reason computers are great is their accessability to the internet. There is this cool website called @CAPS5.Dcotors.Com. If you have an illness or a symtom to something, all you have to do is type it in on the home page and it will list all the possible reasons or outcomes. It also tells you how to treat it and where to find the medicine. If we looked back in time, one would need to travel to a doctor and pay to have your problem checked out. Also computers help out immensely with school work and homework. Many teachers nowadays request or demand students to type their asignments because it is easy to read, and it is easier to correct. I also find it faster to type then print. Say that you need to research the periodic table and write down @NUM1 facts as well as all the elements. There are probably hundreds if not thousands of websites on this subject. All you need to do is type it in on google. You can also add an image by copy and pasting; which will inhance your work. Computers have helped students and teachers. Lastyly, computers (and tehn keyboards) are helping people with hand - eye coordination. Many schools are offering typing classes to try and help students. I recently searched this topic on the internet and it showed a study done by @PERSON1 and @PERSON2 that people who practice typing at least @NUM2 minutes a day, will experience increased hand-eye coordination to @PERCENT1 better. This increase would help many, people with low coordination. Today, computers are helping the world in many ways. From communication, to internet accessability, then to helping hand-eye coordination. The world would change for the worse if computers were abandoned. ",
+      "human_score": 1.0,
+      "ai_score": 0.8,
+      "ai_reason": "The text mostly meets the criteria outlined in the evaluation steps. It clearly addresses the topic of computers and their effects on society, presents a well-developed argument, and provides relevant examples. The main idea is clear and easy to follow, and it demonstrates logical reasoning and critical thinking. However, there are minor issues with spelling and grammar that, while not severely hindering comprehension, do detract slightly from the overall quality.",
+      "delta": 0.19999999999999996
+    },
+    {
+      "essay_id": "927",
+      "essay_text": "Dear @ORGANIZATION1, I agree with some of the perfesionals that think the computer keeps people from exersising, enjoying nature, and spending quality time with friends and family. Some people thnk it's cool to be on the computer @NUM1 @NUM2. The truth is the computer with internet is like having @CAPS1 at your fingure tips, distractions, and more. You can find just about anything on the internet these days. Some people use the internet for doing homework. Sometimes people can find the exact answers to an assiment. That means they are becoming more dependant on tecnologie. If the world becomes more and more dependent on the of computers and such, that could mean things. the world is suffering because people are neglecting to pick up their trash and to try to stop @ORGANIZATION2. Most people, instead of taking action, will be on the computer. People are becoming more and more lazy these days. As I stated most people are becoming more and more lazy these days because all they have to do to have fun is sit and do little movement. Saying that, people are neglecting to exercise and eat right. They are also neglecting to spend time with friends and family. Instead of texting or @CAPS2 someon try to call them. Or maybe even wehn you're free you can go and make plans to visit with your family. Taht's all I ask is that you especially spend time with family because you can always get more friends or anew computer. But your cant get a new family.",
+      "human_score": 0.4,
+      "ai_score": 1,
+      "ai_reason": "The essay successfully meets the criteria. It addresses the topic of computers and their effects on society, presents a well-developed argument about their impact, and provides relevant and specific examples to support its argument. The main idea is clear and easy to follow, and the essay demonstrates logical reasoning and critical thinking. Additionally, it is persuasive in its argument despite minor spelling and grammatical issues that do not significantly hinder comprehension.",
+      "delta": -0.6
+    }
+  ]
+}

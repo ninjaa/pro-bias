@@ -23,7 +23,7 @@ def load_dataset(dataset: str, rater_id: int, num_examples: Optional[int] = None
     if dataset == "representative":
         file_path = "datasets/aes/representative_samples.csv"
     else:
-        file_path = "datasets/aes/mapped_rater_scores.csv"
+        file_path = "datasets/aes/mapped_rater_scores_filtered.csv"
 
     with open(file_path, 'r') as f:
         reader = csv.DictReader(f)

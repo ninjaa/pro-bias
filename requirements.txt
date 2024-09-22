@@ -6,3 +6,5 @@ weave
 wandb
 scikit-learn
 anthropic
+plotly
+jinja2
