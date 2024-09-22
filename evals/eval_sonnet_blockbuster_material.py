@@ -2,19 +2,14 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
-import weave
-from weave import Evaluation
-import asyncio
+from src.config import config
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
-from src.deepeval.sambanova_llm import sambanova_openai
+import asyncio
+from weave import Evaluation
+import weave
+from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
 
-USE_OPENAI = os.environ.get('USE_OPENAI', '0') == '1'
-ASYNC_MODE = os.environ.get('ASYNC_MODE', '0') == '1'
-NUM_EXAMPLES = int(os.environ.get('NUM_EXAMPLES', '-1'))
 
-model_param = {} if USE_OPENAI else {'model': sambanova_openai}
-async_param = {'async_mode': ASYNC_MODE}
 
 is_blockbuster_material_metric = ComparisonGEval(
     verbose_mode=True,
@@ -31,18 +26,21 @@ is_blockbuster_material_metric = ComparisonGEval(
         "The concept should be adaptable for various marketing strategies and merchandising opportunities.",
         "Overall, the movie idea should stand out as both commercially viable and artistically significant."
     ],
-    evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT],
-    **model_param,
-    **async_param
+    evaluation_params=[LLMTestCaseParams.INPUT,
+                       LLMTestCaseParams.ACTUAL_OUTPUT],
+    **config.get_model_param(),
+    **config.get_async_param()
 )
 
 weave.init('pro-bias')
 
 dataset_ref = weave.ref('sonnet_movie_ideas').get()
 
+
 @weave.op()
 def function_to_evaluate(row: dict):
     return {'input': f"Genre: {row['Genre']}\nPremise: {row['Premise']}", 'output': "This is a potential blockbuster movie idea."}
+
 
 @weave.op()
 def match_score(expected_output: str, model_output: dict) -> dict:
@@ -58,9 +56,10 @@ def match_score(expected_output: str, model_output: dict) -> dict:
 
     return {'score': score, 'reason': reason, 'passed': score > 0.5}
 
+
 def create_examples(dataset):
     examples = []
-    rows = dataset.rows[:NUM_EXAMPLES] if NUM_EXAMPLES > 0 else dataset.rows
+    rows = dataset.rows[:config.NUM_EXAMPLES] if config.NUM_EXAMPLES > 0 else dataset.rows
     for row in rows:
         example = {
             "row": row,
@@ -68,6 +67,7 @@ def create_examples(dataset):
         }
         examples.append(example)
     return examples
+
 
 examples = create_examples(dataset_ref)
 
