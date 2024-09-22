@@ -1,3 +1,8 @@
+import sys
+import os
+# Add the parent directory of 'test' to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.deepeval.sambanova_llm import sambanova_openai
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 import asyncio
@@ -5,10 +10,7 @@ from weave import Evaluation
 import weave
 from src.prompts.make_text_more_casual import run_prompt
 from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
-import sys
-import os
-# Add the parent directory of 'test' to the Python path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 
 
 # Get the USE_OPENAI environment variable
