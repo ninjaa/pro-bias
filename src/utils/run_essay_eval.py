@@ -30,7 +30,7 @@ def load_dataset(dataset: str, rater_id: int, num_examples: Optional[int] = None
     if num_examples:
         data = random.sample(data, min(num_examples, len(data)))
     
-    return [{"essay_text": row['essay'], "score": float(row[f'rater{rater_id}_mapped_score'])} for row in data]
+    return [{"essay_id": row['essay_id'], "essay_text": row['essay'], "score": float(row[f'rater{rater_id}_mapped_score'])} for row in data]
 
 def run_essay_eval(eval_config: EssayEvalConfig):
     metric = ComparisonGEval(
@@ -54,6 +54,7 @@ def run_essay_eval(eval_config: EssayEvalConfig):
         )
         safe_measure(metric, test_case)
         results.append({
+            'essay_id': item['essay_id'],
             'essay_text': item['essay_text'],
             'human_score': item['score'],
             'ai_score': metric.score,
