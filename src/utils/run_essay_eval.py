@@ -11,30 +11,33 @@ from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from sklearn.metrics import cohen_kappa_score
 import numpy as np
 
+
 class EssayEvalConfig(BaseModel):
     rubric: List[str]
     rater_id: int
     dataset: str
     num_examples: Optional[int] = None
 
+
 def load_dataset(dataset: str, rater_id: int, num_examples: Optional[int] = None):
     if dataset == "representative":
         file_path = "datasets/aes/representative_samples.csv"
     else:
         file_path = "datasets/aes/mapped_rater_scores.csv"
-    
+
     with open(file_path, 'r') as f:
         reader = csv.DictReader(f)
         data = list(reader)
-    
+
     if num_examples:
         data = random.sample(data, min(num_examples, len(data)))
-    
+
     return [{"essay_id": row['essay_id'], "essay_text": row['essay'], "score": float(row[f'rater{rater_id}_mapped_score'])} for row in data]
+
 
 def run_essay_eval(eval_config: EssayEvalConfig):
     metric = ComparisonGEval(
-        verbose_mode=True,
+        verbose_mode=False,
         name=f"Run Eval with Rubric (Rater {eval_config.rater_id})",
         evaluation_steps=eval_config.rubric,
         evaluation_params=[LLMTestCaseParams.INPUT,],
@@ -42,7 +45,8 @@ def run_essay_eval(eval_config: EssayEvalConfig):
         **config.get_async_param()
     )
 
-    dataset = load_dataset(eval_config.dataset, eval_config.rater_id, eval_config.num_examples)
+    dataset = load_dataset(eval_config.dataset,
+                           eval_config.rater_id, eval_config.num_examples)
 
     results = []
     human_scores = []
@@ -59,10 +63,22 @@ def run_essay_eval(eval_config: EssayEvalConfig):
             'human_score': item['score'],
             'ai_score': metric.score,
             'ai_reason': metric.reason,
-            'delta': metric.score - item['score'],
+            'delta': item['score'] - metric.score,
         })
         human_scores.append(item['score'])
         ai_scores.append(metric.score)
+
+        print(f"\n--- Essay ID: {item['essay_id']} ---")
+        print(f"Essay Text:\n{item['essay_text']}\n")
+        print("Rubric:")
+        for i, criterion in enumerate(eval_config.rubric, 1):
+            print(f"{i}. {criterion}")
+        print("\nResults:")
+        print(f"Human Score: {item['score']}")
+        print(f"AI Score: {metric.score}")
+        print(f"AI Reason: {metric.reason}")
+        print(f"Delta: {item['score'] - metric.score}")
+        print("-" * 50)
 
     # Calculate weighted kappa with scaled scores
     weighted_kappa = cohen_kappa_score(
@@ -73,9 +89,11 @@ def run_essay_eval(eval_config: EssayEvalConfig):
 
     return results, weighted_kappa
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run essay evaluation")
-    parser.add_argument('eval_config', type=str, help='JSON configuration string')
+    parser.add_argument('eval_config', type=str,
+                        help='JSON configuration string')
     args = parser.parse_args()
 
     eval_config = EssayEvalConfig.model_validate_json(args.eval_config)
