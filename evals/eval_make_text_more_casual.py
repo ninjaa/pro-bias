@@ -12,7 +12,13 @@ from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 
 from src.deepeval.sambanova_llm import sambanova_openai
 
+# Get the USE_OPENAI environment variable
+USE_OPENAI = os.environ.get('USE_OPENAI', '0') == '1'
+ASYNC_MODE = os.environ.get('ASYNC_MODE', '0') == '1'
 
+# Conditionally set the model
+model_param = {} if USE_OPENAI else {'model': sambanova_openai}
+async_param = {'async_mode': ASYNC_MODE}
 
 is_text_more_casual_metric = ComparisonGEval(
     async_mode=False,
@@ -25,7 +31,8 @@ is_text_more_casual_metric = ComparisonGEval(
     ],
     evaluation_params=[LLMTestCaseParams.INPUT,
                        LLMTestCaseParams.ACTUAL_OUTPUT],
-    model=sambanova_openai,
+    **model_param,
+    **async_param
 )
 
 weave.init('pro-bias')
