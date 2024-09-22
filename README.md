@@ -58,6 +58,33 @@ Building on ComparisonGEval, we've developed an agent that:
 
 This agent demonstrates the practical application of ComparisonGEval in creating more human-aligned AI systems for subjective tasks like essay grading.
 
+**It routinely gets Substantial Agreement with human raters on the representative samples we have created, and Moderate to Substantial Agreement on the evaluation dataset.**
+
+#### Interpreting Weighted Cohen's Kappa
+
+The interpretation scale:
+
+- κw < 0: Less than chance agreement
+- κw = 0: No agreement beyond chance
+- 0 < κw ≤ 0.20: Slight agreement
+- 0.21 < κw ≤ 0.40: Fair agreement
+- 0.41 < κw ≤ 0.60: Moderate agreement
+- 0.61 < κw ≤ 0.80: Substantial agreement
+- 0.81 < κw ≤ 1.00: Almost perfect agreement
+
+Example: A Weighted Kappa of 0.65 indicates substantial agreement between raters.
+
+#### Advantages of Weighted Kappa Over Unweighted Kappa
+
+1. Reflects the degree of disagreement
+2. Reduces the impact of minor disagreements
+3. Better for ordered categories
+
+#### Limitations of Weighted Kappa
+
+1. More complex to calculate and interpret
+2. Choice of weights can influence the Kappa value
+3. Sensitive to prevalence and bias, similar to unweighted Kappa
 
 ## Project Setup
 
@@ -72,7 +99,7 @@ This agent demonstrates the practical application of ComparisonGEval in creating
 7. For the essay grader, export ANTHROPIC_API_KEY=<your-key>
 
 
-## Running Scripts
+## Running Evals & Reproducing Results
 
 Use the `./run_python.sh` script to run any python script since it will fix up the PYTHONPATH.
 
@@ -132,7 +159,7 @@ NUM_EXAMPLES=5 NO_ASYNC_MODE=1 USE_SAMBANOVA=1 ./run_python.sh python evals/eval
 To run the essay rubric optimizer, you can run the following command:
 ```
 ./run_python.sh python src/agents/essay_rubric_optimizer.py
-
+```
 
 When done it will publish a handy report in the reports folder with the final rubric and a plot of the kappa score at each iteration.
 
@@ -140,8 +167,7 @@ Example report [here](reports/optimization_report_20240922_121354.html)
 
 
 
-
 ## Todos
 
-[ ] make sure to tell the story of how we created the synthetic data
+[x] make sure to tell the story of how we created the synthetic data
 [ ] Look into W&B Feedback
