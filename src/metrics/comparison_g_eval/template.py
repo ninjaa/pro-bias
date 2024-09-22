@@ -21,7 +21,7 @@ JSON:
     @staticmethod
     def generate_evaluation_results(evaluation_steps, text, parameters):
         # Prompt inspired by https://web.archive.org/web/20240907011400/https://www.braintrust.dev/docs/cookbook/recipes/EvaluatingChatAssistant#improve-scoring-with-a-custom-scorer
-        return f"""Given the evaluation steps, assess the text and choose the most appropriate option from A to G, where:
+        return f"""Given the evaluation steps, assess the text and choose the most appropriate option from A to H, where:
 A: Partially meets the criteria
 B: Almost fully meets the criteria
 C: Fully meets all criteria
@@ -29,6 +29,7 @@ D: Completely fails to meet the criteria
 E: Successfully meets the criteria
 F: Mostly fails to meet the criteria
 G: Unrelated to the criteria
+H: Slightly fails to meet the criteria
 
 Evaluation Steps:
 {evaluation_steps}
@@ -58,6 +59,7 @@ JSON:
             "D": 0,
             "E": 1,
             "F": 0.2,
-            "G": 0
+            "G": 0,
+            "H": 0.4
         }
         return choice_scores.get(choice, 0)

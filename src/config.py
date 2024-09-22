@@ -4,6 +4,7 @@ class Config:
     USE_SAMBANOVA = os.environ.get('USE_SAMBANOVA', '1') == '1'
     ASYNC_MODE = os.environ.get('ASYNC_MODE', '0') == '1'
     NUM_EXAMPLES = int(os.environ.get('NUM_EXAMPLES', '-1'))
+    WEAVE_PROJECT = os.environ.get('WEAVE_PROJECT', 'pro-bias')
 
     @classmethod
     def get_model_param(cls):
