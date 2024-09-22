@@ -1,8 +1,8 @@
-# Creating Better Human-Aligned Subjective LLM Judges (wnb-hack-20240921)
+# Pro-Bias: Better Human-Aligned Subjective LLM Evals that can Self-Optimize (wnb-hack-20240921)
 
 ## Project Overview
 
-This project, developed for the wnb-hack-20240921, focuses on creating better human-aligned subjective LLM judges. It consists of four main components:
+This project, developed for the [wnb-hack-20240921](https://wandb.me/judge), focuses on creating better human-aligned subjective LLM judges. It consists of four main components:
 
 1. **ComparisonGEval**: An enhanced framework for more consistent and human-aligned subjective evaluations in LLM outputs.
 2. **Generation of synthetic data sets**: for demonstrating the efficacy of ComparisonGEval.
@@ -15,7 +15,7 @@ ComparisonGEval is an enhancement to the existing GEval framework, designed to a
 
 - Based off of the [original GEval](https://docs.confident-ai.com/docs/metrics-llm-evals) from Confident AI's DeepEval and [this paper](https://arxiv.org/abs/2303.16634)
 - Uses a structured prompt inspired by Braintrust's approach [here](https://web.archive.org/web/20240907011400/https://www.braintrust.dev/docs/cookbook/recipes/EvaluatingChatAssistant#improve-scoring-with-a-custom-scorer)
-- Implements a choice-based scoring system (A to H) instead of direct numeric scores. See prompt [here](src/metrics/comparison_g_eval/template.py)
+- Implements a choice-based scoring system (A to H) instead of direct numeric scores, which was the flaw of the original GEval. LLMs are [notoriously bad at numeric scoring](https://www.nyckel.com/blog/calibrating-gpt-classifications/), and this was found to lead to systematic biases in evaluation. Choice-based scoring mitigates this problem and was found to more consistently align with human judgment. See G eval prompt and translation to scores [here](src/metrics/comparison_g_eval/template.py). The final score emitted maps largely to letter grades - 0, 0.2, 0.4, 0.6, 0.8, 1.0 are the possible outputs.
 - Requires explanations for each evaluation, enhancing transparency
 - Results in more stable, interpretable, and human-aligned evaluation metrics
 
