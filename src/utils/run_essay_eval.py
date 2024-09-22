@@ -6,6 +6,7 @@ import random
 import csv
 from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
 from src.config import config
+from src.utils.safe_measure import safe_measure
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from sklearn.metrics import cohen_kappa_score
 import numpy as np
@@ -51,7 +52,7 @@ def run_essay_eval(eval_config: EssayEvalConfig):
             input=item['essay_text'],
             actual_output=""  # We don't have a generated essay in this case
         )
-        metric.measure(test_case)
+        safe_measure(metric, test_case)
         results.append({
             'essay_text': item['essay_text'],
             'human_score': item['score'],

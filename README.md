@@ -21,13 +21,19 @@ Compare the human alignment to the Comparison G Eval
 
 Options
 
-ASYNC_MODE=1 will run the eval in async mode
+NO_ASYNC_MODE=1 will run the eval in sync mode
 USE_SAMBANOVA=1 will run the eval using Sambanova instead of OpenAI
 
 Then you can run each eval by name
 
 ```
-NUM_EXAMPLES=10 ASYNC_MODE=1 python evals/eval_make_text_more_casual.py
+NUM_EXAMPLES=10 python evals/eval_make_text_more_casual.py
+```
+
+or with Sambanova (because of rate limits, we don't use async mode & less examples)
+
+```
+NUM_EXAMPLES=5 NO_ASYNC_MODE=1 USE_SAMBANOVA=1 python evals/eval_make_text_more_casual.py
 ```
 
 ## Todos
