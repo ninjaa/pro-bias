@@ -10,6 +10,8 @@ log = logging.getLogger(__name__)
 #
 # Migration
 #
+# inspired by https://www.reddit.com/r/Screenwriting/comments/smpofr/free_movie_ideas_megapost_2_january_2022/
+# https://claude.ai/chat/7e9aeb75-c605-42f2-9982-5282113a86f5
 
 FILE_PATH = Path(__file__).parent.parent / "datasets" / "sonnet_movie_ideas.csv"
 

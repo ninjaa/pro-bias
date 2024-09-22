@@ -10,6 +10,8 @@ log = logging.getLogger(__name__)
 #
 # Migration
 #
+# inspired by https://www.reddit.com/r/Screenwriting/comments/smpofr/free_movie_ideas_megapost_2_january_2022/
+# https://chatgpt.com/share/66ef86f6-3424-800b-bf98-9ad4039f2dbf
 
 FILE_PATH = Path(__file__).parent.parent / "datasets" / \
     "o1_preview_movie_ideas.csv"
