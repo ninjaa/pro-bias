@@ -34,4 +34,5 @@ NUM_EXAMPLES=10 ASYNC_MODE=1 USE_OPENAI=1 python evals/eval_make_text_more_casua
 
 [ ] Look into W&B Feedback
 [ ] Get humans to annotate and compare to G Eval
-
+[ ] Change it from USE_OPENAI=1 to USE_SAMBANOVA=1
+[ ] Try to find a more mixed up dataset than what we have now where everything is uncritically amazing ... perhaps create movie ideas from a 8B model? Or ask the GEval to be very critical & opinionated?
