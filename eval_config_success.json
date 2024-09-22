@@ -1,0 +1,14 @@
+{
+    "rubric": [
+        "Is this a well-written essay for an 8th grade student?",
+        "Does the essay demonstrate clear organization and structure?",
+        "Is the language appropriate for an 8th grade level?",
+        "Does the essay contain a clear thesis or main idea?",
+        "Are there supporting details and examples?",
+        "Is the grammar and spelling generally correct?",
+        "Does the essay show critical thinking appropriate for an 8th grader?",
+        "Considering this was written in 45 minutes, is the overall quality satisfactory?"
+    ],
+    "rater_id": 1,
+    "dataset": "representative"
+}

@@ -4,3 +4,4 @@ ruff
 pre-commit
 weave
 wandb
+scikit-learn

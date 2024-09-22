@@ -7,6 +7,8 @@ import csv
 from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
 from src.config import config
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
+from sklearn.metrics import cohen_kappa_score
+import numpy as np
 
 class EssayEvalConfig(BaseModel):
     rubric: List[str]
@@ -42,6 +44,8 @@ def run_essay_eval(eval_config: EssayEvalConfig):
     dataset = load_dataset(eval_config.dataset, eval_config.rater_id, eval_config.num_examples)
 
     results = []
+    human_scores = []
+    ai_scores = []
     for item in dataset:
         test_case = LLMTestCase(
             input=item['essay_text'],
@@ -54,8 +58,17 @@ def run_essay_eval(eval_config: EssayEvalConfig):
             'ai_score': metric.score,
             'reason': metric.reason,
         })
+        human_scores.append(item['score'])
+        ai_scores.append(metric.score)
 
-    return results
+    # Calculate weighted kappa with scaled scores
+    weighted_kappa = cohen_kappa_score(
+        (np.array(human_scores) * 10).astype(int),
+        (np.array(ai_scores) * 10).astype(int),
+        weights='quadratic'
+    )
+
+    return results, weighted_kappa
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run essay evaluation")
@@ -63,5 +76,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     eval_config = EssayEvalConfig.model_validate_json(args.eval_config)
-    results = run_essay_eval(eval_config)
-    print(json.dumps(results, indent=2))
+    results, weighted_kappa = run_essay_eval(eval_config)
+    print(json.dumps({
+        'results': results,
+        'weighted_kappa': weighted_kappa
+    }, indent=2))
