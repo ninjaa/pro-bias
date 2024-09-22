@@ -23,6 +23,7 @@ def optimize_rubric(initial_rubric, rater_id, target_kappa, max_iterations=10):
             "iteration": iteration,
             "rubric": current_rubric,
             "kappa": current_kappa,
+            "kappa_delta": target_kappa - current_kappa,
             "results": stripped_results
         })
 
@@ -32,7 +33,7 @@ def optimize_rubric(initial_rubric, rater_id, target_kappa, max_iterations=10):
             break
 
         current_rubric = improve_essay_rubric(
-            rubric_history, rater_id, max_iterations)
+            rubric_history, rater_id, max_iterations, target_kappa)
         iteration += 1
 
     if current_kappa >= target_kappa:

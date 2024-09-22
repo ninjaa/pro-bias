@@ -1,5 +1,5 @@
 import os
-import openai
+import anthropic
 import re
 import json
 import time
@@ -7,66 +7,103 @@ from src.utils.run_essay_eval import load_dataset
 import tiktoken
 
 SYSTEM_PROMPT = """
-You are an expert in rubric creation. Your goal is to improve the rubric.
+You are an AI who is expert in rubric creation and human alignment. Your goal is to improve the rubric so that LLM eval scores match those of the human rater highly.
 """
 
 PROMPT_TEMPLATE = """
-We are trying to create a set of evaluation criteria for grading essays.
+We're refining a rubric for essay grading that aligns with human rater assessments. Our goal is to improve agreement between LLM and human scores.
 
-The idea is to create a rubric that an LLM can use to evaluate an essay to match a human rater.
+Dataset: {dataset}
+Rubric History: {rubric_history}
+Current Iteration: {current_iteration}/{max_iterations}
+Current Rubric: {current_rubric}
+Current Kappa: {current_kappa}
+Target Kappa: {target_kappa}
 
-The following are the essays and the scores from a human rater.
+Guidelines:
+1. Analyze the current rubric and its performance.
+2. Study the last run in the rubric_history. For each row, examine the ai_reasons to understand why there might be a delta between the target human_score and the ai_score.
+3. Look at these reasons individually and in aggregate to identify patterns or common issues. Remember, you are not looking for reasons why the answer is wrong, you are looking for reasons why the current rubric is not matching that of a human rater whose scores have been collected. The goal is ALIGNMENT, to minimize the delta between the ai_score and the human_score by fine-tuning the rubric.
+4. Consider studying more successful rubric runs (by weighted kappa) in a similar manner.
+5. Use a <Scratchpad> section to combine observations about what worked and what didn't work in different rubrics.
+6. Based on these insights, identify key areas for improvement.
+7. Propose concise, impactful changes.
+8. Order criteria by importance to the human raters. Imagine what the human rater is looking for, and expand that into evaluation steps.
+9. Keep the rubric flexible and adaptable.
+10. Don't hesitate to simplify, remove, or reorder criteria if they are not useful.
+11. If the weighted kappa is not improving significantly between iterations, get more creative and also feel free to slash and burn the existing rubric and start over with a new lightweight one.
 
-{dataset}
+<Scratchpad>
+Analyze last run:
+- Examine each row's ai_reasons for score discrepancies
+- Identify patterns or common issues
 
-so far we have created the following rubrics, and obtained the following weighted kappa scores against the human rater, as well as reasoning for why the scores are what they are against their own attempt rubric:
+Study successful rubrics:
+- Compare successful rubrics (high weighted kappa)
+- Note effective criteria and evaluation approaches
 
-{rubric_history}
+Combine observations:
+- List what worked well across different rubrics
+- Identify areas for improvement based on less successful rubrics
+</Scratchpad>
 
-Your goal is to improve the rubric by creating a new rubric that is better. The order of the criteria within the rubric does matter, with the first criteria being the most important. Remember that your goal is to create a rubric that is as aligned as possible with the human rater, not to be the best rubric, but to be the best rubric that is aligned with the human rater. So try to roleplay as who the human rater might be and what they might be looking for.
+Provide a brief explanation of your changes, then output the updated rubric as a JSON array in a code block:
 
-You will have upto {max_iterations} iterations to create a new rubric. Feel free to backtrack if necessary to get the highest kappa score possible. In earlier runs, feel free to be quite creative in guessing what grade level the essay is for and how polished it is and what the human rater is looking for. If certain criteria should be ignored, feel free to mention that they should be ignored - for instance, in some cases it might be clear that punctuation should be ignored. In others, it might be clear that certain details have been redacted or anonymized, and perhaps the rubric should be adjusted for that.
-
-Please return your rubric as a json array inside a code block. Feel free to reason about why you think the rubric is good or bad outside of the code block.
-
-eg:
+Example output for a rubric where the human raters are apparently grading a conversation between two old people:
 
 ```json
-["The essay is well-structured and organized.", "Does the essay contain a clear thesis or main idea?"]
+[
+    "Is this a short conversation among two old people?",
+    "Does the conversation transcript feature at least one main theme?",
+    "Is the conversation transcript engaging?",
+    "Is the conversation transcript interesting?",
+    "If there are redactions, ignore them",
+    "Verbal tics like 'um' and 'ah' should be ignored"
+]
 ```
 
-Next Rubric:
+Use clues from the dataset and analysis to infer what the human raters are looking for, and then expand that into evaluation steps.
 
 """
 
 
-def improve_essay_rubric(rubric_history, rater_id, max_iterations):
+def improve_essay_rubric(rubric_history, rater_id, max_iterations, target_kappa):
     dataset = load_dataset("representative", rater_id)
-    client = openai.OpenAI()
+    client = anthropic.Anthropic()
+    current_iteration = rubric_history[-1]["iteration"]
+    current_rubric = rubric_history[-1]["rubric"]
+    current_kappa = rubric_history[-1]["kappa"]
 
-    messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": PROMPT_TEMPLATE.format(
-            dataset=dataset,
-            rubric_history=rubric_history,
-            max_iterations=max_iterations)}
-    ]
+    formatted_template = PROMPT_TEMPLATE.format(
+        dataset=dataset,
+        rubric_history=rubric_history,
+        max_iterations=max_iterations,
+        current_iteration=current_iteration,
+        current_rubric=current_rubric,
+        current_kappa=current_kappa,
+        target_kappa=target_kappa
+    )
+    
+    prompt = f"{SYSTEM_PROMPT}\n\n{formatted_template}"
 
-    # Count tokens using cl100k_base encoding
-    encoding = tiktoken.get_encoding("cl100k_base")
-    num_tokens = sum(len(encoding.encode(msg["content"])) for msg in messages)
+    # Debug prints (optional)
+    print(f"Debug - Total characters in prompt: {len(prompt)}")
+    print("Debug - Prompt:")
+    print(prompt)
 
-    print(f"Debug - Total tokens in prompt: {num_tokens}")
-    print("Debug - Messages array:")
-    print(json.dumps(messages, indent=2))
-
-    response = client.chat.completions.create(
-        model='gpt-4o-2024-08-06',
-        messages=messages,
-        temperature=0.7
+    response = client.messages.create(
+        model="claude-3-5-sonnet-20240620",
+        max_tokens=1000,
+        temperature=0.7,
+        messages=[
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
     )
 
-    response_content = response.choices[0].message.content
+    response_content = response.content[0].text
 
     max_retries = 3
     for attempt in range(max_retries):

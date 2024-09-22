@@ -39,7 +39,8 @@ NUM_EXAMPLES=5 NO_ASYNC_MODE=1 USE_SAMBANOVA=1 python evals/eval_make_text_more_
 ## Todos
 
 [ ] Look into W&B Feedback
-[ ] Get humans to annotate and compare to G Eval
+[x] Get humans to annotate and compare to G Eval
 [x] Change it from USE_OPENAI=1 to USE_SAMBANOVA=1
-[ ] Try to find a more mixed up dataset than what we have now where everything is uncritically amazing ... perhaps create movie ideas from a 8B model? Or ask the GEval to be very critical & opinionated?
+[x] Try to find a more mixed up dataset than what we have now where everything is uncritically amazing ... perhaps create movie ideas from a 8B model? Or ask the GEval to be very critical & opinionated?
 [ ] make sure to tell the story of how we created the synthetic data
+[ ] switch eval optimizer to sonnet!!

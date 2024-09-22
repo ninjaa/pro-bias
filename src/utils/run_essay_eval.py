@@ -58,7 +58,8 @@ def run_essay_eval(eval_config: EssayEvalConfig):
             'essay_text': item['essay_text'],
             'human_score': item['score'],
             'ai_score': metric.score,
-            'reason': metric.reason,
+            'ai_reason': metric.reason,
+            'delta': metric.score - item['score'],
         })
         human_scores.append(item['score'])
         ai_scores.append(metric.score)
