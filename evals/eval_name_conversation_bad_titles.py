@@ -3,12 +3,12 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.metrics.comparison_g_eval.comparison_g_eval_metric import ComparisonGEval
-from src.prompts.name_conversation import run_prompt
 import weave
 from weave import Evaluation
 import asyncio
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from src.deepeval.sambanova_llm import sambanova_openai
+
 
 
 USE_OPENAI = os.environ.get('USE_OPENAI', '0') == '1'
@@ -23,7 +23,7 @@ is_valid_conversation_name_metric = ComparisonGEval(
     name="Is Valid Conversation Name",
     evaluation_steps=[
         "The output should be a short name for the conversation",
-        "The short should describe at least one main theme of the conversation specifically",
+        "The short name should describe at least one main theme of the conversation specifically",
         "The name should not mention the user or use the word 'conversation'",
         "The name should be professional and less than 4 words",
         "If the name is not clear, it should be 'Untitled'",
@@ -42,7 +42,19 @@ dataset_ref = weave.ref('name_conversation').get()
 
 @weave.op()
 def function_to_evaluate(conversation_text: str):
-    return {'conversation_text': conversation_text, 'generated_name': run_prompt(conversation_text)}
+    # Generate intentionally bad titles
+    bad_titles = [
+        "This is a very long conversation title that exceeds four words",
+        "User's Conversation About Something",
+        "Untitled Conversation",
+        "Professional Discussion!",
+        "Chat #1234",
+        "Amazing Adventures in UX",
+        "AI Careers in Oncology",
+        "Blockchain for Astronauts",
+    ]
+    import random
+    return {'conversation_text': conversation_text, 'generated_name': random.choice(bad_titles)}
 
 
 @weave.op()
