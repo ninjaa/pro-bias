@@ -21,7 +21,6 @@ model_param = {} if USE_OPENAI else {'model': sambanova_openai}
 async_param = {'async_mode': ASYNC_MODE}
 
 is_text_more_casual_metric = ComparisonGEval(
-    async_mode=False,
     verbose_mode=True,
     name="Is Text More Casual",
     evaluation_steps=[
