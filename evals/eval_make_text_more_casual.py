@@ -89,5 +89,4 @@ evaluation = Evaluation(
 )
 
 # Run the evaluation
-weave.init('make-text-casual-eval')
 asyncio.run(evaluation.evaluate(function_to_evaluate))
