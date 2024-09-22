@@ -27,5 +27,11 @@ USE_OPENAI=1 will run the eval using OpenAI instead of Sambanova
 Then you can run each eval by name
 
 ```
-ASYNC_MODE=1 USE_OPENAI=1 python evals/eval_make_text_more_casual.py
+NUM_EXAMPLES=10 ASYNC_MODE=1 USE_OPENAI=1 python evals/eval_make_text_more_casual.py
 ```
+
+## Todos
+
+[ ] Look into W&B Feedback
+[ ] Get humans to annotate and compare to G Eval
+
