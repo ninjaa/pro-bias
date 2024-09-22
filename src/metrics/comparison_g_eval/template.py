@@ -38,7 +38,7 @@ Text to evaluate:
 {text}
 
 **
-IMPORTANT: Please return your response in JSON format with two keys: 'choice' and 'reason'. The 'choice' should be one of the options A-G, and the 'reason' should explain your selection without mentioning any numerical scores. DO NOT QUOTE THE SCORE in your reason.
+IMPORTANT: Please return your response in JSON format with two keys: 'choice' and 'reason'. The 'choice' should be one of the options A-H, and the 'reason' should explain your selection without mentioning any numerical scores. DO NOT QUOTE THE SCORE in your reason.
 
 Example JSON:
 {{
