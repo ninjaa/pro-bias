@@ -54,7 +54,7 @@ class SambanovaOpenAI(DeepEvalBaseLLM):
 
 # Usage
 sambanova_openai = SambanovaOpenAI()
-print(sambanova_openai.generate("Write me a joke"))
+# print(sambanova_openai.generate("Write me a joke"))
 
 # # Replace these with real values
 # custom_model = ChatOpenAI(
